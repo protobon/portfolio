@@ -1,6 +1,9 @@
 import { Navbar } from './components/Navbar'
 import { Hero } from './components/Hero'
 import { About } from './components/About'
+import { Experience } from './components/Experience'
+import { Cards } from './components/Cards'
+import { Footer } from './components/Footer'
 
 function App() {
   return (
@@ -8,6 +11,9 @@ function App() {
       <Navbar/>
       <Hero/>
       <About/>
+      <Experience/>
+      <Cards/>
+      <Footer/>
     </div>
   )
 }
