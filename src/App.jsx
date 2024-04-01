@@ -2,18 +2,20 @@ import { Navbar } from './components/Navbar'
 import { Hero } from './components/Hero'
 import { About } from './components/About'
 import { Experience } from './components/Experience'
-import { Cards } from './components/Cards'
-import { Footer } from './components/Footer'
+import { Projects } from './components/Projects'
+import { Contact } from './components/Contact'
 
 function App() {
   return (
-    <div className='bg-blue-900 transition-transform duration-500'>
-      <Navbar/>
-      <Hero/>
+    <div className='font-roboto transition-transform duration-500 bg-gradient-to-tr from-slate-400 via-slate-700 to-black'>
+      <div className='bg-[url("src/assets/world.jpg")] bg-cover'>
+        <Navbar/>
+        <Hero/>
+      </div>
       <About/>
       <Experience/>
-      <Cards/>
-      <Footer/>
+      <Projects/>
+      <Contact/>
     </div>
   )
 }

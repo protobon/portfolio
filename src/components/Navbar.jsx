@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import { RiMenu3Fill, RiCloseLine } from "react-icons/ri";
+import { IoMdMenu, IoMdClose } from "react-icons/io";
 
 export const Navbar = () => {
   const [navMenu, setNavMenu] = useState(false)
@@ -10,23 +10,23 @@ export const Navbar = () => {
   }
 
   return (
-  <nav className='flex justify-between items-center h-24 max-w-screen-xl mx-auto px-4'>
-    <a href="/" className='text-2xl text-teal-200'>Portfolio</a>
-    <ul className='hidden md:flex text-teal-50'>
-      <li className='p-3'><a href="#about">About</a></li>
-      <li className='p-3'>Experience</li>
-      <li className='p-3'>Projects</li>
-      <li className='p-3'>Contact</li>
-    </ul>
-    <div onClick={handleNavMenu} className='text-teal-50 block md:hidden'>
-      {navMenu ? <RiCloseLine size={20}/> : <RiMenu3Fill size={20}/>}
+  <nav className='flex justify-between items-center text-teal-50 h-24 max-w-screen-xl mx-auto px-4'>
+    <a href="/" className='text-2xl'>Portfolio</a>
+    <div className='hidden md:flex'>
+      <a href="#about" className='p-3 rounded-lg mx-1 hover:bg-teal-50/50 transition duration-500'>About</a>
+      <a href="#experience" className='p-3 rounded-lg mx-1 hover:bg-teal-50/50 transition duration-500'>Experience</a>
+      <a href="#projects" className='p-3 rounded-lg mx-1 hover:bg-teal-50/50 transition duration-500'>Projects</a>
+      <a href="#contact" className='p-3 rounded-lg mx-1 hover:bg-teal-50/50 transition duration-500'>Contact</a>
     </div>
-    <div className={navMenu ? 'fixed left-0 top-0 w-[40%] h-full bg-blue-800 ease-in-out duration-300' : "fixed left-[-100%]"}>
-      <ul className='p-6 uppercase text-teal-50'>
-        <li className='p-3 border-b border-teal-200'>About</li>
-        <li className='p-3 border-b border-teal-200'>Experience</li>
-        <li className='p-3 border-b border-teal-200'>Projects</li>
-        <li className='p-3 border-b border-teal-200'>Contact</li>
+    <button onClick={handleNavMenu} type="button" className='md:hidden'>
+      {navMenu ? <IoMdClose size={25}/> : <IoMdMenu size={25}/>}
+    </button>
+    <div className={`md:hidden ${navMenu ? 'fixed right-0 top-16 w-[35%] max-w-[200px] h-auto ease-in-out duration-300' : "fixed right-[-100%]"}`}>
+      <ul className='p-6 text-teal-50'>
+        <li className='p-3 rounded-lg mx-1 hover:bg-teal-50/50 transition duration-500'><a href="#about" onClick={handleNavMenu}>About</a></li>
+        <li className='p-3 rounded-lg mx-1 hover:bg-teal-50/50 transition duration-500'><a href="#experience" onClick={handleNavMenu}>Experience</a></li>
+        <li className='p-3 rounded-lg mx-1 hover:bg-teal-50/50 transition duration-500'><a href="#projects" onClick={handleNavMenu}>Projects</a></li>
+        <li className='p-3 rounded-lg mx-1 hover:bg-teal-50/50 transition duration-500'><a href="#contact" onClick={handleNavMenu}>Contact</a></li>
       </ul>
     </div>
   </nav>
