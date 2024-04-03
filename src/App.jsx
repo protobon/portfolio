@@ -14,10 +14,8 @@ function App() {
         <Navbar/>
         <Hero/>
       </div>
-      <div>
-        <About/>
-        <Experience/>
-      </div>
+      <About/>
+      <Experience/>
       <Projects/>
       <Contact/>
       <ScrollToTop/>

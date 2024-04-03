@@ -11,7 +11,7 @@ import { SiApachekafka, SiGraphql, SiKubernetes, SiDatadog, SiTailwindcss } from
 
 export const Experience = () => {
   return (
-    <section id="experience" className='flex flex-col items-center w-full min-h-full py-6 px-4 text-white font-semibold'>
+    <section id="experience" className='flex flex-col items-center w-full min-h-full py-6 px-4 my-8 text-white font-semibold'>
         <h1 className='font-bold py-6 md:text-4xl sm:text-3xl text-2xl'>Technologies</h1>
         <div className='max-w-[1920px] w-full mx-auto my-4 grid place-items-center md:grid-cols-9 sm:grid-cols-6 grid-cols-3'>
           <div className='text-center my-2'>

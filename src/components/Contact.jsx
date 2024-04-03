@@ -9,7 +9,7 @@ import {
 
 export const Contact = () => {
   return (
-    <section className='max-w-[1920px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300' id="contact">
+    <section className='max-w-[1920px] mx-8 py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300' id="contact">
       <div>
         <h1 className='w-full text-3xl font-bold text-[#00df9a]'>REACT.</h1>
         <p className='py-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id odit ullam iste repellat consequatur libero reiciendis, blanditiis accusantium.</p>
