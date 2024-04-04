@@ -1,16 +1,16 @@
 import { Navbar } from './components/Navbar'
 import { Hero } from './components/Hero'
-import { About } from './components/About'
-import { Experience } from './components/Experience'
-import { Projects } from './components/Projects'
-import { Contact } from './components/Contact'
 import { ScrollToTop } from './components/ScrollToTop'
+import { About } from './components/About/About'
+import { Experience } from './components/Experience/Experience'
+import { Projects } from './components/Projects/Projects'
+import { Contact } from './components/Contact/Contact'
 
 
 function App() {
   return (
-    <div className={`font-roboto scroll-smooth transition-transform duration-500`}>
-      <div className='bg-[url("src/assets/desk2.jpg")] bg-cover bg-center bg-origin-padding'>
+    <div className={`scroll-smooth transition-transform duration-500`}>
+      <div className={`bg-[url("/assets/desk2.jpg")] bg-cover bg-center bg-origin-padding`}>
         <Navbar/>
         <Hero/>
       </div>
