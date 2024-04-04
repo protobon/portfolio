@@ -6,13 +6,13 @@ import { IoLogoJavascript } from "react-icons/io";
 import { TbFileTypeSql } from "react-icons/tb";
 import { DiMongodb, DiRedis } from "react-icons/di";
 import { LuFileJson2 } from "react-icons/lu";
-import { SiApachekafka, SiGraphql, SiKubernetes, SiDatadog, SiTailwindcss } from "react-icons/si";
+import { SiApachekafka, SiGraphql, SiJirasoftware, SiDatadog, SiTailwindcss } from "react-icons/si";
 
 
 export const Experience = () => {
   return (
-    <section id="experience" className='flex flex-col items-center w-full min-h-full py-6 px-4 my-8 text-white bg-black/50 font-semibold'>
-        <h1 className='font-bold py-6 md:text-4xl sm:text-3xl text-2xl'>Technologies</h1>
+    <section id="experience" className='flex flex-col items-center w-full min-h-full py-6 px-4 my-8 text-white font-semibold'>
+        <h1 className='py-6 md:text-4xl sm:text-3xl text-2xl'>My Skill Set</h1>
         <div className='max-w-[1920px] w-full mx-auto my-4 grid place-items-center md:grid-cols-9 sm:grid-cols-6 grid-cols-3'>
           <div className='text-center my-2'>
             <IoLogoJavascript size={50} color='white' className='m-auto'/>
@@ -79,8 +79,8 @@ export const Experience = () => {
             <p>Linux</p>
           </div>
           <div className='text-center my-2'>
-            <SiKubernetes size={50} color='white' className='m-auto'/>
-            <p>Kubernetes</p>
+            <SiJirasoftware  size={50} color='white' className='m-auto'/>
+            <p>Jira</p>
           </div>
           <div className='text-center my-2'>
             <SiDatadog size={50} color='white' className='m-auto'/>

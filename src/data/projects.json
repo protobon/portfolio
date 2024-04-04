@@ -1,14 +1,14 @@
 [
     {
         "title": "Python Project",
-        "description": "TO DO",
+        "description": "Monolithic architecture of a backend system for warehouse or supermarket stock control.",
         "imagePath": "pythonCode.jpg",
-        "github": "https://github.com/protobon/repository"
+        "repo": "https://github.com/protobon/repository"
     },
     {
-        "title": "Javascript Project",
-        "description": "TO DO",
+        "title": "Go Project",
+        "description": "Microservice architecture for scaling large businesses and handling high request traffic.",
         "imagePath": "jsCode.jpg",
-        "github": "https://github.com/protobon/repository"
+        "repo": "https://github.com/protobon/repository"
     }
 ]

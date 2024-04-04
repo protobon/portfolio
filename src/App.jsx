@@ -9,7 +9,7 @@ import { Contact } from './components/Contact/Contact'
 
 function App() {
   return (
-    <div className={`scroll-smooth transition-transform duration-500`}>
+    <div>
       <div className={`bg-[url("/assets/desk2.jpg")] bg-cover bg-center bg-origin-padding`}>
         <Navbar/>
         <Hero/>
