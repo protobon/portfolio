@@ -1,14 +1,16 @@
 [
     {
         "title": "Python Project",
-        "description": "Monolithic architecture of a backend system for warehouse or supermarket stock control.",
+        "description": "Monolithic REST/CRUD asynchronous API with user authentication. One transactional database and one cache database.",
         "imagePath": "pythonCode.jpg",
-        "repo": "https://github.com/protobon/repository"
+        "repo": "https://github.com/protobon/repository",
+        "technologies": ["Python", "FastAPI", "Firebase Auth", "MongoDB", "Redis"]
     },
     {
         "title": "Go Project",
-        "description": "Microservice architecture for scaling large businesses and handling high request traffic.",
+        "description": "Microservice architecture connected through Apache Kafka topics and served by API Gateway. For large businesses that need to handle high traffic and large amounts of data.",
         "imagePath": "jsCode.jpg",
-        "repo": "https://github.com/protobon/repository"
+        "repo": "https://github.com/protobon/repository",
+        "technologies": ["Go", "Kafka"]
     }
 ]

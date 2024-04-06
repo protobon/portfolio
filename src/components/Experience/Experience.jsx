@@ -6,7 +6,8 @@ import { IoLogoJavascript } from "react-icons/io";
 import { TbFileTypeSql } from "react-icons/tb";
 import { DiMongodb, DiRedis } from "react-icons/di";
 import { LuFileJson2 } from "react-icons/lu";
-import { SiApachekafka, SiGraphql, SiJirasoftware, SiDatadog, SiTailwindcss } from "react-icons/si";
+import { SiApachekafka, SiGraphql, SiJirasoftware, SiDatadog, SiTailwindcss,
+  SiTraefikproxy, SiFastapi, SiAwslambda } from "react-icons/si";
 
 
 export const Experience = () => {
@@ -17,6 +18,14 @@ export const Experience = () => {
           <div className='text-center my-2'>
             <IoLogoJavascript size={50} color='white' className='m-auto'/>
             <p>JavaScript</p>
+          </div>
+          <div className='text-center my-2'>
+            <FaPython size={50} color='white' className='m-auto'/>
+            <p>Python</p>
+          </div>
+          <div className='text-center my-2'>
+            <FaGolang size={50} color='white' className='m-auto'/>
+            <p>Go</p>
           </div>
           <div className='text-center my-2'>
             <FaHtml5 size={50} color='white' className='m-auto'/>
@@ -35,24 +44,12 @@ export const Experience = () => {
             <p>Tailwind</p>
           </div>
           <div className='text-center my-2'>
+            <SiFastapi  size={50} color='white' className='m-auto'/>
+            <p>FastAPI</p>
+          </div>
+          <div className='text-center my-2'>
             <SiGraphql size={50} color='white' className='m-auto'/>
             <p>GraphQL</p>
-          </div>
-          <div className='text-center my-2'>
-            <LuFileJson2 size={50} color='white' className='m-auto'/>
-            <p>JSON</p>
-          </div>
-          <div className='text-center my-2'>
-            <FaPython size={50} color='white' className='m-auto'/>
-            <p>Python</p>
-          </div>
-          <div className='text-center my-2'>
-            <FaGolang size={50} color='white' className='m-auto'/>
-            <p>Go</p>
-          </div>
-          <div className='text-center my-2'>
-            <FaGitAlt size={50} color='white' className='m-auto'/>
-            <p>Git</p>
           </div>
           <div className='text-center my-2'>
             <DiMongodb size={50} color='white' className='m-auto'/>
@@ -67,6 +64,18 @@ export const Experience = () => {
             <p>SQL</p>
           </div>
           <div className='text-center my-2'>
+            <FaLinux size={50} color='white' className='m-auto'/>
+            <p>Linux</p>
+          </div>
+          <div className='text-center my-2'>
+            <FaGitAlt size={50} color='white' className='m-auto'/>
+            <p>Git</p>
+          </div>
+          <div className='text-center my-2'>
+            <SiTraefikproxy  size={50} color='white' className='m-auto'/>
+            <p>Traefik</p>
+          </div>
+          <div className='text-center my-2'>
             <FaDocker size={50} color='white' className='m-auto'/>
             <p>Docker</p>
           </div>
@@ -75,16 +84,16 @@ export const Experience = () => {
             <p>Kafka</p>
           </div>
           <div className='text-center my-2'>
-            <FaLinux size={50} color='white' className='m-auto'/>
-            <p>Linux</p>
-          </div>
-          <div className='text-center my-2'>
-            <SiJirasoftware  size={50} color='white' className='m-auto'/>
-            <p>Jira</p>
+            <SiAwslambda  size={50} color='white' className='m-auto'/>
+            <p>AWS Lambda</p>
           </div>
           <div className='text-center my-2'>
             <SiDatadog size={50} color='white' className='m-auto'/>
             <p>DataDog</p>
+          </div>
+          <div className='text-center my-2'>
+            <SiJirasoftware  size={50} color='white' className='m-auto'/>
+            <p>Jira</p>
           </div>
         </div>
     </section>
