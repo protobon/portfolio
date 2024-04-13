@@ -1,16 +1,26 @@
 [
     {
-        "title": "Python Project",
-        "description": "Monolithic REST/CRUD asynchronous API with user authentication. One transactional database and one cache database.",
+        "title": "Monolithic Rest API",
+        "description": "CRUD API with authentication, swagger documentation, one transactional database and asynchronous cache system.",
         "imagePath": "pythonCode.jpg",
-        "repo": "https://github.com/protobon/repository",
+        "imageAlt": "Python code",
+        "repo": "https://github.com/protobon/python-fastapi-mongodb-redis",
         "technologies": ["Python", "FastAPI", "Firebase Auth", "MongoDB", "Redis"]
     },
     {
-        "title": "Go Project",
-        "description": "Microservice architecture connected through Apache Kafka topics and served by API Gateway. For large businesses that need to handle high traffic and large amounts of data.",
+        "title": "Real-Time Chat Room",
+        "description": "Single page application connecting clients in the frontend with a server through Websockets",
         "imagePath": "jsCode.jpg",
-        "repo": "https://github.com/protobon/repository",
-        "technologies": ["Go", "Kafka"]
+        "imageAlt": "Javascript code",
+        "repo": "https://github.com/protobon/chat-room-socket-io",
+        "technologies": ["Nodejs", "Socket IO"]
+    },
+    {
+        "title": "Portfolio Web",
+        "description": "The source code for the portfolio you're in right now :)",
+        "imagePath": "jsCode.jpg",
+        "imageAlt": "Javascript code",
+        "repo": "https://github.com/protobon/portfolio",
+        "technologies": ["React", "Tailwind"]
     }
 ]
