@@ -1,4 +1,12 @@
 :root {
-    /* Fonts */
-    --font-roboto: "Roboto";
+    --font-title: 'Montserrat Variable', sans-serif;
+    --font-text: 'Open Sans Variable', sans-serif;
+    --color-bg: #FFFFFF;
+    --color-title-from: #00334E;
+    --color-title-to: #33cccc;
+    --color-subtitle: #203b94;
+    --color-text: #444444;
+    --color-span: #6675ff;
+    --color-link: #9933CC;
+    --color-link-hv: #BA66FF;
 }

@@ -1,0 +1,30 @@
+{
+    "title": "Projects",
+    "description": "Github repositories with the code of personal projects that I've made.",
+    "projects": [
+        {
+            "title": "Monolithic Rest API",
+            "description": "CRUD API with authentication, swagger documentation, one transactional database and asynchronous cache system.",
+            "imagePath": "pythonCode.jpg",
+            "imageAlt": "Python code",
+            "repo": "https://github.com/protobon/python-fastapi-mongodb-redis",
+            "technologies": ["Python", "FastAPI", "Firebase Auth", "MongoDB", "Redis"]
+        },
+        {
+            "title": "Real-Time Chat Room",
+            "description": "Single page application connecting clients in a chat room through Websockets",
+            "imagePath": "jsCode.jpg",
+            "imageAlt": "Javascript code",
+            "repo": "https://github.com/protobon/chat-room-socket-io",
+            "technologies": ["Nodejs", "Socket IO"]
+        },
+        {
+            "title": "Web Portfolio",
+            "description": "The source code for the portfolio you're in right now :)",
+            "imagePath": "jsCode.jpg",
+            "imageAlt": "Javascript code",
+            "repo": "https://github.com/protobon/portfolio",
+            "technologies": ["React", "Tailwind"]
+        }
+    ]
+}

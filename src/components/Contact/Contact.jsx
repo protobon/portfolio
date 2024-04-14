@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react'
+import { useLanguage } from '../Util/LanguageContext';
 import {
   FaLinkedin,
   FaGithubSquare,
@@ -6,14 +7,24 @@ import {
 } from 'react-icons/fa';
 import { IoIosMail } from "react-icons/io";
 
-import contact from "../../data/contact.json"
-
 
 export const Contact = () => {
+  const { language } = useLanguage();
+  const [contact, setContact] = useState({});
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const jsonData = await import(`../../data/${language}/contact.json`);
+      setContact(jsonData);
+    };
+
+    fetchData();
+  }, [language]);
+
   return (
-    <section className='w-full py-8 px-6 my-8 text-white' id="contact">
+    <section className='w-full py-8 px-6 mt-8' id="contact">
       <div>
-        <h1 className='w-full text-3xl text-[#00df9a]'>{contact.title}</h1>
+        <h1 className='w-full text-3xl'>{contact.title}</h1>
         <p className='py-4'>{contact.description}</p>
         <div className='flex justify-start my-6 mx-2'>
             <a href={contact.linkedInUrl} target="_blank">
@@ -26,7 +37,7 @@ export const Contact = () => {
                 <FaGithubSquare size={30} className='mx-3'/>
             </a>
             <a href={`mailto:${contact.mail}`} target="_blank">
-                <IoIosMail size={30} className='mx-3'/>
+                <IoIosMail size={35} className='mx-3'/>
             </a>
         </div>
       </div>
