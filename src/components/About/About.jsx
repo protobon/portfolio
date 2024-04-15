@@ -17,7 +17,7 @@ export const About = () => {
 
   return (
     <section className='w-full min-h-full' id="about" >
-      <h1 className='md:text-4xl sm:text-3xl text-2xl text-center'>{about.title}</h1>
+      <h1 className='md:text-4xl sm:text-3xl text-2xl text-center pt-6'>{about.title}</h1>
       <div className='block xl:grid xl:grid-cols-3'>
         <p className='my-6 mx-10 lg:text-lg xl:col-span-2 xl:my-auto md:text-md text-[1rem] p-4 rounded-lg shadow-2xl'>{about.description}</p>
         <img

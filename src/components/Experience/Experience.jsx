@@ -2,13 +2,13 @@ import React, { useEffect, useState } from 'react'
 import { useLanguage } from '../Util/LanguageContext';
 
 import { FaHtml5, FaPython, FaReact, FaGitAlt, FaDocker, FaLinux, FaCss3 } from "react-icons/fa";
-import { FaGolang } from "react-icons/fa6";
 import { IoLogoJavascript } from "react-icons/io";
-import { TbFileTypeSql } from "react-icons/tb";
+import { TbBrandGolang } from "react-icons/tb";
 import { DiMongodb, DiRedis } from "react-icons/di";
 import { IoLogoFirebase } from "react-icons/io5";
 import { SiApachekafka, SiGraphql, SiDatadog, SiTailwindcss,
-  SiTraefikproxy, SiFastapi, SiSocketdotio, SiAtlassian } from "react-icons/si";
+  SiTraefikproxy, SiFastapi, SiSocketdotio, SiAtlassian,
+  SiPostgresql } from "react-icons/si";
 
 
 export const Experience = () => {
@@ -33,87 +33,87 @@ export const Experience = () => {
         <div className='w-full mx-auto my-4 grid place-items-center lg:grid-cols-12 md:grid-cols-9 sm:grid-cols-6 grid-cols-3 font-semibold'>
           <div className='text-center my-2'>
             <IoLogoJavascript size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
-            <p>JavaScript</p>
+            <p className='my-1'>JavaScript</p>
           </div>
           <div className='text-center my-2'>
             <FaPython size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
-            <p>Python</p>
+            <p className='my-1'>Python</p>
           </div>
           <div className='text-center my-2'>
-            <FaGolang size={60} style={{color: 'var(--color-icon)'}} className='m-auto'/>
-            <p>Go</p>
-          </div>
-          <div className='text-center my-2'>
-            <FaHtml5 size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
-            <p>HTML5</p>
-          </div>
-          <div className='text-center my-2'>
-            <FaCss3 size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
-            <p>CSS</p>
-          </div>
-          <div className='text-center my-2'>
-            <FaReact size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
-            <p>React</p>
-          </div>
-          <div className='text-center my-2'>
-            <SiTailwindcss size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
-            <p>Tailwind</p>
-          </div>
-          <div className='text-center my-2'>
-            <SiFastapi  size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
-            <p>FastAPI</p>
-          </div>
-          <div className='text-center my-2'>
-            <SiSocketdotio  size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
-            <p>Socket IO</p>
-          </div>
-          <div className='text-center my-2'>
-            <SiGraphql size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
-            <p>GraphQL</p>
-          </div>
-          <div className='text-center my-2'>
-            <IoLogoFirebase size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
-            <p>Firebase</p>
-          </div>
-          <div className='text-center my-2'>
-            <DiMongodb size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
-            <p>MongoDB</p>
-          </div>
-          <div className='text-center my-2'>
-            <DiRedis size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
-            <p>Redis</p>
-          </div>
-          <div className='text-center my-2'>
-            <TbFileTypeSql size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
-            <p>SQL</p>
-          </div>
-          <div className='text-center my-2'>
-            <FaLinux size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
-            <p>Linux</p>
+            <TbBrandGolang size={55} style={{color: 'var(--color-icon)'}} className='m-auto'/>
+            <p className='my-1'>Go</p>
           </div>
           <div className='text-center my-2'>
             <FaGitAlt size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
-            <p>Git</p>
+            <p className='my-1'>Git</p>
+          </div>
+          <div className='text-center my-2'>
+            <FaHtml5 size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
+            <p className='my-1'>HTML5</p>
+          </div>
+          <div className='text-center my-2'>
+            <FaCss3 size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
+            <p className='my-1'>CSS</p>
+          </div>
+          <div className='text-center my-2'>
+            <FaReact size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
+            <p className='my-1'>React</p>
+          </div>
+          <div className='text-center my-2'>
+            <SiTailwindcss size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
+            <p className='my-1'>Tailwind</p>
+          </div>
+          <div className='text-center my-2'>
+            <SiFastapi  size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
+            <p className='my-1'>FastAPI</p>
+          </div>
+          <div className='text-center my-2'>
+            <SiSocketdotio  size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
+            <p className='my-1'>Socket IO</p>
+          </div>
+          <div className='text-center my-2'>
+            <SiGraphql size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
+            <p className='my-1'>GraphQL</p>
+          </div>
+          <div className='text-center my-2'>
+            <IoLogoFirebase size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
+            <p className='my-1'>Firebase</p>
+          </div>
+          <div className='text-center my-2'>
+            <DiMongodb size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
+            <p className='my-1'>MongoDB</p>
+          </div>
+          <div className='text-center my-2'>
+            <SiPostgresql size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
+            <p className='my-1'>PostgreSQL</p>
+          </div>
+          <div className='text-center my-2'>
+            <DiRedis size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
+            <p className='my-1'>Redis</p>
+          </div>
+          <div className='text-center my-2'>
+            <FaLinux size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
+            <p className='my-1'>Linux</p>
           </div>
           <div className='text-center my-2'>
             <FaDocker size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
-            <p>Docker</p>
-          </div>
-          <div className='text-center my-2'>
-            <SiTraefikproxy  size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
-            <p>Traefik</p>
+            <p className='my-1'>Docker</p>
           </div>
           <div className='text-center my-2'>
             <SiApachekafka size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
-            <p>Kafka</p>
+            <p className='my-1'>Kafka</p>
+          </div>
+          <div className='text-center my-2'>
+            <SiTraefikproxy  size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
+            <p className='my-1'>Traefik</p>
           </div>
           <div className='text-center my-2'>
             <SiDatadog size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
-            <p>DataDog</p>
+            <p className='my-1'>DataDog</p>
           </div>
           <div className='text-center my-2'>
             <SiAtlassian  size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
-            <p>Atlassian</p>
+            <p className='my-1'>Atlassian</p>
           </div>
         </div>
     </section>

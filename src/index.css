@@ -31,10 +31,12 @@ h1 {
 h2 {
   font-family: var(--font-title);
   color: var(--color-subtitle);
+  text-shadow: 1px 2px 2px var(--subtitle-shadow);
 }
 
 p {
   font-family: var(--font-text);
+  text-shadow: 1px 1px 2px var(--text-shadow);
 }
 
 a {
@@ -50,7 +52,7 @@ span {
 }
 
 section {
-  margin-bottom: 8rem;
+  margin-bottom: 6rem;
 }
 
 .heroImage {
