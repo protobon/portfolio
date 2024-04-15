@@ -9,10 +9,9 @@ export const LanguageDropdown = () => {
   };
 
   return (
-    <select value={language} onChange={handleLanguageChange}>
-      <option value="en">EN</option>
+    <select value={language} onChange={handleLanguageChange} className='rounded-full border-2 border-sky-800'>
       <option value="es">ES</option>
-      {/* Add more language options as needed */}
+      <option value="en">EN</option>
     </select>
   );
 };
