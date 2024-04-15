@@ -22,7 +22,7 @@ export const Projects = () => {
       {projects.title && (
         <>
           <h1 className='pt-6 text-center md:text-4xl sm:text-3xl text-2xl'>{projects.title}</h1>
-          <p className='max-w-[1920px] my-4 lg:text-lg md:text-md text-[1rem] p-4 rounded-lg shadow-2xl'>
+          <p className='max-w-[1920px] mx-auto my-4 p-4 lg:text-lg md:text-md text-[1rem] rounded-lg shadow-2xl'>
             {projects.description}
           </p>
           <div className='max-w-[1920px] grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8'>

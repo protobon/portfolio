@@ -5,7 +5,7 @@ import {
   FaGithubSquare,
   FaInstagram,
 } from 'react-icons/fa';
-import { IoIosMail } from "react-icons/io";
+import { MdAlternateEmail } from "react-icons/md";
 
 
 export const Contact = () => {
@@ -22,7 +22,7 @@ export const Contact = () => {
   }, [language]);
 
   return (
-    <section className='w-full pb-2 px-6' id="contact">
+    <section className='w-full mb-8 pb-2 px-6' id="contact">
       <div>
         <h1 className='w-full text-3xl'>{contact.title}</h1>
         <p className='py-4'>{contact.description}</p>
@@ -33,11 +33,11 @@ export const Contact = () => {
             <a href={contact.instagramUrl} target="_blank">
                 <FaInstagram size={30} className='mx-3'/>
             </a>
+            <a href={`mailto:${contact.mail}`} target="_blank">
+                <MdAlternateEmail size={30} className='mx-3'/>
+            </a>
             <a href={contact.githubUrl} target="_blank">
                 <FaGithubSquare size={30} className='mx-3'/>
-            </a>
-            <a href={`mailto:${contact.mail}`} target="_blank">
-                <IoIosMail size={35} className='mx-3'/>
             </a>
         </div>
       </div>

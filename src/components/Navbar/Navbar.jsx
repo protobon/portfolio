@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Disclosure } from '@headlessui/react'
 import { useLanguage } from '../Util/LanguageContext';
 import { IoMdMenu, IoMdClose } from "react-icons/io";
+import { GrLanguage } from "react-icons/gr";
 import { LanguageDropdown } from '../Util/LanguageDropdown';
 
 
@@ -26,14 +27,14 @@ export const Navbar = () => {
       ]
 
   return (
-    <Disclosure as="nav" className="bg-gradient-to-tr from-white via-slate-100 to-slate-300">
+    <Disclosure as="nav" className="bg-gradient-to-b from-slate-300 via-slate-100 to-white">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 md:px-6 lg:px-8">
             <div className="relative flex h-16 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center md:hidden">
                 {/* Mobile menu button*/}
-                <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-[var(--color-icon)] hover:bg-[var(--color-icon)] hover:text-white focus:outline-none focus:ring-1 focus:ring-inset focus:ring-white">
                   <span className="absolute -inset-0.5" />
                   <span className="sr-only">Open main menu</span>
                   {open ? (
@@ -53,30 +54,31 @@ export const Navbar = () => {
                       <a
                         key={idx}
                         href={item.href}
-                        className='rounded-md px-2 py-2 font-medium hover:bg-slate-300/60 transition duration-100'
+                        className='rounded-md p-2 font-medium text-[var(--color-icon)] hover:text-[var(--color-span)] hover:bg-slate-500/10 transition duration-100'
                       >
-                      <h2>{item.name}</h2>
+                      {item.name}
                       </a>
                     ))}
                   </div>
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 md:static md:inset-auto md:ml-6 md:pr-0">
+                <GrLanguage size={20} style={{color: 'var(--color-icon)'}} className='mx-2'/>
                 <LanguageDropdown/>
               </div>
             </div>
           </div>
 
           <Disclosure.Panel className="md:hidden absolute z-10 w-full bg-gradient-to-b from-white via-slate-100 to-slate-300">
-            <div className="space-y-1 px-2 pb-3 pt-2">
+            <div className="space-y-1 px-2 pb-3 pt-2 shadow-lg">
               {navigation.map((item, idx) => (
                 <Disclosure.Button
                   key={idx}
                   as="a"
                   href={item.href}
-                  className='block align-middle rounded-md px-3 py-2 font-medium hover:bg-slate-300/60 transition duration-100'
+                  className='block align-middle rounded-md p-2 font-medium text-[var(--color-icon)] hover:text-[var(--color-span)] hover:bg-slate-500/10 transition duration-100'
                 >
-                <h2>{item.name}</h2>
+                {item.name}
                 </Disclosure.Button>
               ))}
             </div>

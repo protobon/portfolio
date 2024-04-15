@@ -16,17 +16,20 @@ export const Hero = () => {
     fetchData();
   }, [language]);
 
+
   return (
-    <section className='grid grid-cols-1 lg:grid-cols-3 px-4 justify-center w-full h-screen'>
-      <img 
-        className='heroImage m-auto rounded-full shadow-2xl max-h-96'
-        src={getImage(hero.imagePath)}
-        alt="" 
-      />
+    <section className='flex flex-col sm:flex-row sm:justify-between w-full h-screen px-4'>
+      <div className='object-contain mx-auto mt-24 mb-12 sm:my-auto'>
+        <img 
+          className='heroImage rounded-full shadow-2xl'
+          src={getImage(hero.imagePath)}
+          alt=""
+        />
+      </div>
       {
         hero.text && (
           <>
-            <div className='max-w-[95%] px-6 text-center font-semibold lg:col-span-2 sm:text-sm md:text-md lg:text-lg lg:my-auto xl:text-xl'>
+            <div className='max-w-[95%] mx-auto mb-16 sm:my-auto px-6 text-center font-semibold lg:col-span-2 text-md md:text-lg lg:text-xl xl:text-2xl'>
                 <ReactTyped
                 startWhenVisible
                 style={{color: 'black'}}
