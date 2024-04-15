@@ -22,7 +22,7 @@ export const Contact = () => {
   }, [language]);
 
   return (
-    <section className='w-full py-8 px-6 mt-8' id="contact">
+    <section className='w-full pb-2 px-6' id="contact">
       <div>
         <h1 className='w-full text-3xl'>{contact.title}</h1>
         <p className='py-4'>{contact.description}</p>

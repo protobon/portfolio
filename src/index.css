@@ -48,3 +48,21 @@ a:hover {
 span {
   color: var(--color-span);
 }
+
+section {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.heroImage {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: showImage 1s ease-in-out forwards;
+}
+
+@keyframes showImage {
+  from { opacity: 0; transform: translateX(-100%); }
+  to { opacity: 1; transform: translateX(0); }
+}

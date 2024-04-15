@@ -3,7 +3,7 @@
     "description": "Repositorios de Github con código de proyectos personales en los que he trabajado.",
     "projects": [
         {
-            "title": "API Rest Monolito",
+            "title": "API Rest Monolítico",
             "description": "Operaciones CRUD a través de una API con autenticación, documentación swagger, una base de datos transaccional y sistema de caché asíncrono con Redis.",
             "imagePath": "pythonCode.jpg",
             "imageAlt": "Python code",
@@ -11,12 +11,12 @@
             "technologies": ["Python", "FastAPI", "Firebase Auth", "MongoDB", "Redis"]
         },
         {
-            "title": "Sala de Chat en Tiempo Real",
+            "title": "Sala de Chat",
             "description": "Aplicación de una sola página que conecta a usuarios en una sala de chat a través de WebSockets.",
             "imagePath": "jsCode.jpg",
             "imageAlt": "Javascript code",
             "repo": "https://github.com/protobon/chat-room-socket-io",
-            "technologies": ["Nodejs", "express.js", "Socket IO"]
+            "technologies": ["Nodejs", "express js", "Socket IO"]
         },
         {
             "title": "Portfolio Web",

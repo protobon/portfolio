@@ -11,12 +11,12 @@
             "technologies": ["Python", "FastAPI", "Firebase Auth", "MongoDB", "Redis"]
         },
         {
-            "title": "Real-Time Chat Room",
+            "title": "Chat Room",
             "description": "Single page application connecting clients in a chat room through Websockets",
             "imagePath": "jsCode.jpg",
             "imageAlt": "Javascript code",
             "repo": "https://github.com/protobon/chat-room-socket-io",
-            "technologies": ["Nodejs", "Socket IO"]
+            "technologies": ["Nodejs", "express js", "Socket IO"]
         },
         {
             "title": "Web Portfolio",

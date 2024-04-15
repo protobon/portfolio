@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import { getImageUrl } from "../../utils"
+import { getImage } from "../../utils"
 
 
 export const ProjectCard = ({ project: {title, imagePath, imageAlt, description, repo, technologies} }) => {
@@ -10,7 +10,7 @@ export const ProjectCard = ({ project: {title, imagePath, imageAlt, description,
   
   return (
     <div className="max-w-xs mx-auto my-6 rounded-lg overflow-hidden shadow-xl border-4 border-white transition duration-300 hover:-translate-y-1 hover:scale-105">
-        <a href={repo} target='_blank'><img className="w-full" src={getImageUrl(imagePath)} alt={imageAlt} /></a>
+        <a href={repo} target='_blank'><img className="w-full" src={getImage(imagePath)} alt={imageAlt} /></a>
         <div className="px-4 py-2">
             <a href={repo} target='_blank'><h2 className="font-bold text-xl my-3">{title}</h2></a>
             <p className="text-base leading-relaxed">

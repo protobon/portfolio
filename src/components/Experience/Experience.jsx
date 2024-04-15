@@ -25,8 +25,8 @@ export const Experience = () => {
   }, [language]);
 
   return (
-    <section id="experience" className='max-w-[1600px] mx-auto flex flex-col items-center w-full min-h-full py-6 px-4 my-8'>
-        <h1 className='py-6 md:text-4xl sm:text-3xl text-2xl'>{experience.title}</h1>
+    <section id="experience" className='max-w-[1600px] mx-auto px-4 flex flex-col items-center w-full min-h-full'>
+        <h1 className='pt-6 md:text-4xl sm:text-3xl text-2xl'>{experience.title}</h1>
         <p className='my-4 lg:text-lg md:text-md text-[1rem] p-4 rounded-lg shadow-2xl'>
           {experience.description}
         </p>
