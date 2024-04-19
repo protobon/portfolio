@@ -1,27 +1,32 @@
 {
     "title": "Proyectos",
-    "description": "Repositorios de Github con código de proyectos personales en los que he trabajado.",
-    "projects": [
+    "description": "Algunos programas que desarrollé para demostrar mis habilidades técnicas. Continuaré expandiendo esta lista en el futuro próximo.",
+    "comment": "Click en la imagen para ver el código.",
+    "list": [
         {
-            "title": "API Rest Monolítico",
-            "description": "Operaciones CRUD a través de una API con autenticación, documentación swagger, una base de datos transaccional y sistema de caché asíncrono con Redis.",
-            "imagePath": "pythonCode.jpg",
+            "title": "Warehouse",
+            "description": "API web que te permite organizar tus productos de almacén o depósito. Puede usarse como backend de e-commerce.",
+            "subtitle": "Detalles",
+            "comment": "Con autenticación de usuarios, base de datos transaccional y sistema de caché asíncrono. Tip: Puedes importar tu base de datos y tendrás una herramienta web para administrar tu inventario.",
+            "image": "pythonCode.jpg",
             "imageAlt": "Python code",
             "repo": "https://github.com/protobon/python-fastapi-mongodb-redis",
-            "technologies": ["Python", "FastAPI", "Firebase Auth", "MongoDB", "Redis"]
+            "technologies": ["Python", "FastAPI", "MongoDB", "Firebase Auth", "Redis"]
         },
         {
             "title": "Sala de Chat",
-            "description": "Aplicación de una sola página que conecta a usuarios en una sala de chat a través de WebSockets.",
-            "imagePath": "jsCode.jpg",
+            "description": "Conecta a usuarios en una sala de chat a través de WebSockets.",
+            "subtitle": "Detalles",
+            "comment": "El objetivo de esta app es demostrar comunicación en tiempo real, basada en eventos. Esta tecnología también se utiliza para enviar notificaciones, sincronización de datos, tramas GPS, y más.",
+            "image": "chat.jpg",
             "imageAlt": "Javascript code",
             "repo": "https://github.com/protobon/chat-room-socket-io",
-            "technologies": ["Nodejs", "express js", "Socket IO"]
+            "technologies": ["Nodejs", "expressjs", "Socket IO"]
         },
         {
             "title": "Portfolio Web",
-            "description": "El código fuente de la página donde estás parado :)",
-            "imagePath": "jsCode.jpg",
+            "description": "El código de esta página :)",
+            "image": "jsCode.jpg",
             "imageAlt": "Javascript code",
             "repo": "https://github.com/protobon/portfolio",
             "technologies": ["React", "Tailwind"]

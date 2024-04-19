@@ -1,5 +1,5 @@
 {
     "title": "About Me",
     "description": "I am a full-stack web developer, which means I can create websites on both client and server side. One of my passions is software because of the millions possibilities that it brings with vast array of open-source technologies. You just need to read the docs and get to work, and then magic happens!",
-    "imagePath": "profileImage.jpg"
+    "image": "profileImage.jpg"
 }

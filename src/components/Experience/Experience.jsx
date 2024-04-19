@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useLanguage } from '../Util/LanguageContext';
 
-import { FaHtml5, FaPython, FaReact, FaGitAlt, FaDocker, FaLinux, FaCss3 } from "react-icons/fa";
+import { FaHtml5, FaPython, FaReact, FaGitAlt, FaGithub,FaDocker, FaLinux, FaCss3 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { TbBrandGolang } from "react-icons/tb";
 import { DiMongodb, DiRedis } from "react-icons/di";
@@ -41,11 +41,7 @@ export const Experience = () => {
           </div>
           <div className='text-center my-2'>
             <TbBrandGolang size={55} style={{color: 'var(--color-icon)'}} className='m-auto'/>
-            <p className='my-1'>Go</p>
-          </div>
-          <div className='text-center my-2'>
-            <FaGitAlt size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
-            <p className='my-1'>Git</p>
+            <p className='mb-1'>Go</p>
           </div>
           <div className='text-center my-2'>
             <FaHtml5 size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
@@ -54,6 +50,14 @@ export const Experience = () => {
           <div className='text-center my-2'>
             <FaCss3 size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
             <p className='my-1'>CSS</p>
+          </div>
+          <div className='text-center my-2'>
+            <FaGitAlt size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
+            <p className='my-1'>Git</p>
+          </div>
+          <div className='text-center my-2'>
+            <FaGithub size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
+            <p className='my-1'>GitHub</p>
           </div>
           <div className='text-center my-2'>
             <FaReact size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>

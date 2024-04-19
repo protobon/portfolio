@@ -31,7 +31,7 @@ h1 {
 h2 {
   font-family: var(--font-title);
   color: var(--color-subtitle);
-  text-shadow: 1px 2px 2px var(--subtitle-shadow);
+  text-shadow: 1px 1px 3px var(--subtitle-shadow);
 }
 
 p {

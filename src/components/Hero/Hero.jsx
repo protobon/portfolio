@@ -18,18 +18,18 @@ export const Hero = () => {
 
 
   return (
-    <section className='flex flex-col md:flex-row md:justify-between w-full h-screen px-4'>
-      <div className='object-contain mx-auto mt-24 mb-12 md:my-auto'>
+    <section className='flex flex-col lg:flex-row lg:justify-between w-full h-screen px-4'>
+      <div className='object-contain mx-auto max-w-[80%] sm:max-w-[70%] md:max-w-[60%] mt-24 mb-12 lg:my-auto'>
         <img 
           className='heroImage rounded-full shadow-2xl'
-          src={getImage(hero.imagePath)}
+          src={getImage(hero.image)}
           alt=""
         />
       </div>
       {
         hero.text && (
           <>
-            <div className='max-w-[95%] mx-auto mb-16 md:my-auto px-6 text-center font-semibold lg:col-span-2 text-md md:text-lg lg:text-xl xl:text-2xl'>
+            <div className='w-[90%] mx-auto mb-16 lg:my-auto lg:w-[60%] px-6 text-center font-semibold lg:col-span-2 text-md md:text-lg lg:text-xl xl:text-2xl'>
                 <ReactTyped
                 startWhenVisible
                 style={{color: 'var(--color-subtitle)'}}

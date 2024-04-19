@@ -22,7 +22,7 @@ export const About = () => {
         <p className='my-6 mx-10 lg:text-lg xl:col-span-2 xl:my-auto md:text-md text-[1rem] p-4 rounded-lg shadow-2xl'>{about.description}</p>
         <img
           className='my-10 mx-auto rounded-full shadow-2xl max-h-96 transition duration-500 hover:-translate-y-1 hover:scale-105'
-          src={getImage(about.imagePath)}
+          src={getImage(about.image)}
           alt="" />
       </div>
     </section>
