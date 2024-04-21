@@ -27,7 +27,7 @@ export const Carousel = ({ projects }) => {
             src={getImage(currentProject.image)}
             alt={currentProject.imageAlt}
           />
-          <div className="py-2 h-72 px-4 flex flex-col">
+          <div className="py-2 h-80 px-4 flex flex-col">
             <a
               href={currentProject.repo}
               target="_blank"
@@ -47,13 +47,13 @@ export const Carousel = ({ projects }) => {
           </div>
           <div className="flex justify-between mt-2">
               <button
-                className="absolute top-[40%] left-3 z-10 cursor-pointer text-white hover:text-slate-400 focus:outline-none"
+                className="absolute top-[30%] left-3 z-10 cursor-pointer text-white hover:text-slate-400 focus:outline-none"
                 onClick={prevSlide}
               >
                 <IoIosArrowBack size={30}/>
               </button>
               <button
-                className="absolute top-[40%] right-3 z-10 cursor-pointer text-white hover:text-slate-400 focus:outline-none"
+                className="absolute top-[30%] right-3 z-10 cursor-pointer text-white hover:text-slate-400 focus:outline-none"
                 onClick={nextSlide}
               >
                 <IoIosArrowForward size={30}/>

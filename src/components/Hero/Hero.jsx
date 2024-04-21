@@ -17,7 +17,7 @@ export const Hero = () => {
   }, [language]);
 
   return (
-    <section className='bg-[url("/assets/oscillate.svg")] bg-cover bg-center flex flex-col justify-center w-full h-screen px-4'>
+    <section className='bg-[url("/assets/oscillate.svg")] bg-cover bg-center flex flex-col justify-center w-full h-screen mb-0 px-4'>
       <div className='object-contain mx-auto max-w-[90%] sm:max-w-[80%] md:max-w-[60%] lg:max-w-[50%] xl:max-w-[40%] mt-24 mb-12'>
         <img 
           className='heroImage rounded-full shadow-2xl'
