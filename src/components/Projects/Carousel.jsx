@@ -32,9 +32,12 @@ export const Carousel = ({ projects }) => {
               href={currentProject.repo}
               target="_blank"
               rel="noreferrer">
-              <h2 className="text-xl font-bold my-3">{currentProject.title}</h2>
+              <h2 className="text-xl lg:text-2xl font-bold my-3">{currentProject.title}</h2>
             </a>
-            <p className="overflow-auto">{currentProject.description}</p>
+            <p className="overflow-auto text-md lg:text-lg mb-4">{currentProject.description}</p>
+            {currentProject.text && (
+              <p className="overflow-auto bg-gray-200/50 p-2 rounded-xl text-sm lg:text-md">{currentProject.text}</p>
+            )}
             <div className="pt-2 mt-auto">
               {currentProject.technologies.map((tech, idx) => {
                 return <span key={idx} className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">{tech}</span>
