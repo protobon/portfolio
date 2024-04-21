@@ -1,5 +1,6 @@
 {
     "title": "Sobre mí",
-    "description": "Soy un desarrollador web full-stack de Uruguay con tres años de experiencia en el rubro y un amplio set de habilidades bajo mi arsenal. Me apasiona el software y las cosas increíbles que se pueden construir con visión y trabajo en equipo.",
-    "image": "profileImage.jpg"
+    "description": "En casi tres años de carrera, me volví un desarrollador full-stack competente con un buen set de habilidades técnicas y blandas, y capaz de adoptar nuevas tecnologías con facilidad. Trabajo muy bien en equipo y valoro mucho la comunicación, uno de mis objetivos es formar parte de un equipo de alta performance y desarrollar software de alta calidad.",
+    "text": "Me apasiona el software, sobretodo los sistemas que mueven grandes volumenes de datos en tiempo real. Mi foco son sistemas distribuidos y descubrimiento de servicio.",
+    "image": "about.jpg"
 }

@@ -6,18 +6,16 @@
         {
             "title": "Warehouse",
             "description": "API web que te permite organizar tus productos de almacén o depósito. Puede usarse como backend de e-commerce.",
-            "subtitle": "Detalles",
-            "comment": "Con autenticación de usuarios, base de datos transaccional y sistema de caché asíncrono. Tip: Puedes importar tu base de datos y tendrás una herramienta web para administrar tu inventario.",
-            "image": "pythonCode.jpg",
-            "imageAlt": "Python code",
+            "text": "Con autenticación de usuarios, base de datos transaccional y sistema de caché asíncrono. Tip: Puedes importar tu base de datos y tendrás una herramienta web para administrar tu inventario.",
+            "image": "desk.jpg",
+            "imageAlt": "work",
             "repo": "https://github.com/protobon/python-fastapi-mongodb-redis",
             "technologies": ["Python", "FastAPI", "MongoDB", "Firebase Auth", "Redis"]
         },
         {
             "title": "Sala de Chat",
             "description": "Conecta a usuarios en una sala de chat a través de WebSockets.",
-            "subtitle": "Detalles",
-            "comment": "El objetivo de esta app es demostrar comunicación en tiempo real, basada en eventos. Esta tecnología también se utiliza para enviar notificaciones, sincronización de datos, tramas GPS, y más.",
+            "text": "El objetivo de esta app es demostrar comunicación en tiempo real, basada en eventos. Esta tecnología también se utiliza para enviar notificaciones, sincronización de datos, seguimiento de tramas GPS, y más.",
             "image": "chat.jpg",
             "imageAlt": "Javascript code",
             "repo": "https://github.com/protobon/chat-room-socket-io",

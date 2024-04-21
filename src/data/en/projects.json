@@ -1,11 +1,12 @@
 {
     "title": "Projects",
-    "description": "Github repositories with the code of personal projects that I've made.",
+    "description": "Some programs I've made to showcase my technical skills. I'll expand this list in the near future.",
     "list": [
         {
-            "title": "Monolithic Rest API",
-            "description": "CRUD API with authentication, swagger documentation, one transactional database and asynchronous cache system.",
-            "image": "pythonCode.jpg",
+            "title": "Warehouse",
+            "description": "Web API that lets you organize your warehouse items. It can be used as a backend service for e-commerce.",
+            "text": "With user authentication, transactional database and asynchronous cache system. Tip: Import your own database and you'll have a tool to administrate your inventory.",
+            "image": "desk.jpg",
             "imageAlt": "Python code",
             "repo": "https://github.com/protobon/python-fastapi-mongodb-redis",
             "technologies": ["Python", "FastAPI", "Firebase Auth", "MongoDB", "Redis"]
@@ -13,6 +14,7 @@
         {
             "title": "Chat Room",
             "description": "Single page application connecting clients in a chat room through Websockets",
+            "text": "The purpose of this app is to demonstrate real time communication based in events. This technology is also used in push notifications, data sync, GPS trackers, and more.",
             "image": "chat.jpg",
             "imageAlt": "Javascript code",
             "repo": "https://github.com/protobon/chat-room-socket-io",
@@ -20,7 +22,7 @@
         },
         {
             "title": "Web Portfolio",
-            "description": "The source code for the portfolio you're in right now :)",
+            "description": "The source code of the page you're in right now :)",
             "image": "jsCode.jpg",
             "imageAlt": "Javascript code",
             "repo": "https://github.com/protobon/portfolio",

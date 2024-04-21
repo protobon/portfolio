@@ -1,5 +1,6 @@
 {
     "title": "About Me",
-    "description": "I am a full-stack web developer, which means I can create websites on both client and server side. One of my passions is software because of the millions possibilities that it brings with vast array of open-source technologies. You just need to read the docs and get to work, and then magic happens!",
-    "image": "profileImage.jpg"
+    "description": "With almost three years of experience, I've become a bold full-stack developer with a broad set of technical and soft skills, and I'm able to adopt new technologies with ease. I work great in teams and appreciate communication, one of my goals is to be in a high performance team and develop high quality software solutions.",
+    "text": "Software is my passion, specially complex systems that handle high amounts of data in real time. My focus is in distributed systems and service discovery.",
+    "image": "about.jpg"
 }
