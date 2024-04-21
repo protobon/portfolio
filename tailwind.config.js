@@ -10,7 +10,8 @@ export default {
       fontFamily: {
         openSans: ["Open Sans Variable"],
         montserrat: ["Montserrat Variable"],
-        ubuntu: ["'Ubuntu Mono', monospace;"]
+        ubuntu: ["'Ubuntu Mono', monospace;"],
+        roboto: ["'Roboto Mono Variable', monospace;"]
       }
     }
   },

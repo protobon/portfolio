@@ -1,13 +1,9 @@
 :root {
-    --font-title: 'Montserrat Variable', sans-serif;
-    --font-text: 'Open Sans Variable', sans-serif;
-    --color-bg: #FFFFFF;
+    --color-bg: #fbf9f1;
     --color-title-from: #00334E;
     --color-title-to: #33cccc;
     --color-subtitle: #203b94;
-    --subtitle-shadow: #9299ac;
     --color-text: #444444;
-    --text-shadow: #b9b8b8;
     --color-span: #6675ff;
     --color-link: #33cccc;
     --color-link-hv: #6675ff;

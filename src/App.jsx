@@ -9,7 +9,7 @@ import { ScrollToTop } from './components/Util/ScrollToTop'
 function App() {
   return (
     <div>
-      <div className=''>
+      <div className='bg-[url("/assets/oscillate.svg")] bg-cover bg-center '>
         <Navbar/>
         <Hero/>
       </div>

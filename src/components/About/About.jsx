@@ -19,7 +19,7 @@ export const About = () => {
     <section className='w-full min-h-full' id="about" >
       <h1 className='md:text-4xl sm:text-3xl text-2xl text-center pt-6'>{about.title}</h1>
       <div className='flex flex-col justify-center xl:flex-row'>
-        <p className='bg-white my-6 mx-10 text-[1rem] p-4 rounded-lg shadow-2xl lg:text-lg xl:my-auto md:text-md'>{about.description}</p>
+        <p className='bg-white shadow-2xl text-center my-6 mx-10 text-[1rem] p-4 rounded-lg lg:text-lg xl:my-auto md:text-md'>{about.description}</p>
         <div className=" bg-white max-w-xs mx-auto xl:my-auto xl:mx-8 my-6 rounded-lg overflow-hidden shadow-2xl border-4 border-white transition duration-300 hover:-translate-y-1 hover:scale-105">
           <img
             className='w-full'

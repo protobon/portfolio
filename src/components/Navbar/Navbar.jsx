@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import { Disclosure } from '@headlessui/react'
 import { useLanguage } from '../Util/LanguageContext';
 import { IoMdMenu, IoMdClose } from "react-icons/io";
-import { GrLanguage } from "react-icons/gr";
 import { LanguageDropdown } from '../Util/LanguageDropdown';
 
 
@@ -27,7 +26,7 @@ export const Navbar = () => {
       ]
 
   return (
-    <Disclosure as="nav" className="bg-gradient-to-b from-[#c3bfb1] via-[#dfdcd0] to-[#fbf9f1]">
+    <Disclosure as="nav" className="bg-gradient-to-b from-[#c8ceda] to-transparent">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 md:px-6 lg:px-8">
@@ -45,31 +44,26 @@ export const Navbar = () => {
                 </Disclosure.Button>
               </div>
               <div className="flex flex-1 items-center justify-center md:items-stretch md:justify-start">
-                <div className="flex flex-shrink-0 items-center">
-                    <a href="/" className='text-3xl'><h1>Ayrton C.</h1></a>
+                <div className="flex flex-shrink-0 items-center text-3xl">
+                    <a href="/"><h1>Ayrton C.</h1></a>
                 </div>
                 <div className="hidden md:ml-6 md:block">
                   <div className="flex space-x-2 lg:space-x-4">
                     {navigation.map((item, idx) => (
-                      <a
-                        key={idx}
-                        href={item.href}
-                        className='rounded-md p-2 font-medium text-[var(--color-icon)] hover:text-[var(--color-span)] hover:bg-slate-500/10 transition duration-100'
-                      >
-                      {item.name}
+                      <a key={idx} href={item.href} className='rounded-md p-2 font-medium text-[var(--color-icon)] hover:text-[var(--color-span)] hover:bg-slate-500/10 transition duration-100'>
+                        {item.name}
                       </a>
                     ))}
                   </div>
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 md:static md:inset-auto md:ml-6 md:pr-0">
-                <GrLanguage size={20} style={{color: 'var(--color-icon)'}} className='mx-2'/>
                 <LanguageDropdown/>
               </div>
             </div>
           </div>
 
-          <Disclosure.Panel className="md:hidden absolute z-10 w-full bg-gradient-to-t from-[#c3bfb1] via-[#dfdcd0] to-[#fbf9f1]">
+          <Disclosure.Panel className="md:hidden absolute z-10 w-full bg-gradient-to-t from-[#c8ceda] to-transparent">
             <div className="space-y-1 px-2 pb-3 pt-2 shadow-lg">
               {navigation.map((item, idx) => (
                 <Disclosure.Button

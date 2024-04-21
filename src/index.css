@@ -5,15 +5,14 @@
 
 html {
     scroll-behavior: smooth;
-    font-family: var(--font-text);
+    font-family: 'Montserrat Variable', sans-serif;
 }
 
 body {
-  background-color: #fbf9f1;
+  background-color: var(--color-bg);
 }
 
 h1 {
-  font-family: var(--font-title);
   font-weight: 600;
 
   /* Fallback: Set a background color. */
@@ -33,14 +32,7 @@ h1 {
 }
 
 h2 {
-  font-family: var(--font-title);
   color: var(--color-subtitle);
-  text-shadow: 1px 1px 3px var(--subtitle-shadow);
-}
-
-p {
-  font-family: var(--font-text);
-  text-shadow: 1px 1px 2px var(--text-shadow);
 }
 
 a {
