@@ -9,7 +9,7 @@ export const LanguageDropdown = () => {
   };
 
   return (
-    <select value={language} onChange={handleLanguageChange} className="block p-2 rounded-full text-sm border-2 border-[var(--color-icon)] focus:outline-none focus:ring-0">
+    <select value={language} onChange={handleLanguageChange} className="block py-2 px-1 rounded-full text-sm border-2 border-[var(--color-icon)] focus:outline-none focus:ring-0">
         <option value="es">ES</option>
         <option value="en">EN</option>
     </select>

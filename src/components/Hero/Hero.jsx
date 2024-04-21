@@ -18,7 +18,7 @@ export const Hero = () => {
 
   return (
     <section className='flex flex-col justify-center w-full h-screen mb-0 px-4'>
-      <div className='object-contain mx-auto max-w-[90%] sm:max-w-[75%] md:max-w-[60%] lg:max-w-[45%] xl:max-w-[30%] mt-24 mb-12'>
+      <div className='object-contain mx-auto max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl mt-24 mb-12'>
         <img 
           className='heroImage rounded-full shadow-2xl'
           src={getImage(hero.image)}
