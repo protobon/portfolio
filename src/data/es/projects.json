@@ -1,12 +1,11 @@
 {
     "title": "Proyectos",
-    "description": "Repositorios públicos con algunos programas que desarrollé para demostrar mis habilidades técnicas, los productos no están disponibles online, son solamente muestras de código. Continuaré agregando proyectos en el futuro.",
-    "comment": "Click en la imagen para ver el código.",
+    "description": "Repositorios de código de algunos programas que desarrollé para demostrar mis habilidades técnicas. Continuaré agregando proyectos en el futuro.",
     "list": [
         {
             "title": "Warehouse",
             "description": "API web que te permite organizar tus productos de almacén o depósito. Puede usarse como backend de e-commerce.",
-            "text": "Con autenticación de usuarios, base de datos transaccional y sistema de caché asíncrono. Tip: Puedes importar tu base de datos y tendrás una herramienta web para administrar tu inventario.",
+            "text": "Con autenticación de usuarios, base de datos transaccional y sistema de caché asíncrono. Puede trabajar como microservicio en un Sistema Distribuído.",
             "image": "desk.jpg",
             "imageAlt": "work",
             "repo": "https://github.com/protobon/python-fastapi-mongodb-redis",

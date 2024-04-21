@@ -1,6 +1,11 @@
 {
     "title": "About Me",
-    "description": "With studies in Software Engineering and almost three years of experience working in the industry, I've become a seasoned full-stack developer with a wide set of technical skills, as I'm able to adopt new technologies with ease. I excel in teamwork and believe communication goes a long way, I want to work with people that motivates me to challenge myself and expand my horizons.",
-    "text": "I focus my work in auto-scaling distributed systems and infrastructure.",
-    "image": "about.jpg"
+    "lines": [
+        "Cursé el programa Fundamentos de Ingeniería de Software en Holberton School Uruguay en 2021, y me gradué en 2022, más o menos en el tiempo que ChatGPT salió al público. Desde entonces, trabajo duro y continúo estudiando lo mejor y último en tecnología para entender cómo esta nos ayuda en la vida real, y formar parte de quienes lo hacen posible.",
+        "Hoy, soy un desarrollador full-stack con foco principalmente en infraestructura de servidores, alta disponibilidad, escalabilidad y rápida recuperación frente a desastres.",
+        "Puedo decir que me siento orgulloso del progreso que hice hasta ahora, pero no es suficiente. Con el avance en tecnologías de Inteligencia Artificial, siento que saber infraestructura es la base, para así poder enfocarnos en las oportunidades que nos ofrece la IA, al mismo tiempo que nos vamos adaptando a esta nueva era de tecnología."
+    ],
+    "image": "about.jpg",
+    "imageAlt": "En Hotel Argentino, Piriápolis",
+    "imageText": ""
 }
