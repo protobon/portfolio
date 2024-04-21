@@ -8,6 +8,10 @@ html {
     font-family: var(--font-text);
 }
 
+body {
+  background-color: #fbf9f1;
+}
+
 h1 {
   font-family: var(--font-title);
   font-weight: 600;

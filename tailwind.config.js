@@ -8,7 +8,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        roboto: ["Roboto"]
+        openSans: ["Open Sans Variable"],
+        montserrat: ["Montserrat Variable"],
+        ubuntu: ["'Ubuntu Mono', monospace;"]
       }
     }
   },

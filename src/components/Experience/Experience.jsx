@@ -8,7 +8,7 @@ import { DiMongodb, DiRedis } from "react-icons/di";
 import { IoLogoFirebase } from "react-icons/io5";
 import { SiApachekafka, SiGraphql, SiDatadog, SiTailwindcss,
   SiTraefikproxy, SiFastapi, SiSocketdotio, SiAtlassian,
-  SiPostgresql } from "react-icons/si";
+  SiPostgresql, SiKubernetes } from "react-icons/si";
 
 
 export const Experience = () => {
@@ -27,7 +27,7 @@ export const Experience = () => {
   return (
     <section id="experience" className='max-w-[1600px] mx-auto px-4 flex flex-col items-center w-full min-h-full'>
         <h1 className='pt-6 md:text-4xl sm:text-3xl text-2xl'>{experience.title}</h1>
-        <p className='my-4 lg:text-lg md:text-md text-[1rem] p-4 rounded-lg shadow-2xl'>
+        <p className='text-center bg-white my-4 lg:text-lg md:text-md text-[1rem] p-4 rounded-lg shadow-2xl'>
           {experience.description}
         </p>
         <div className='w-full mx-auto my-4 grid place-items-center lg:grid-cols-12 md:grid-cols-9 sm:grid-cols-6 grid-cols-3 font-semibold'>
@@ -80,10 +80,6 @@ export const Experience = () => {
             <p className='my-1'>GraphQL</p>
           </div>
           <div className='text-center my-2'>
-            <IoLogoFirebase size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
-            <p className='my-1'>Firebase</p>
-          </div>
-          <div className='text-center my-2'>
             <DiMongodb size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
             <p className='my-1'>MongoDB</p>
           </div>
@@ -96,6 +92,10 @@ export const Experience = () => {
             <p className='my-1'>Redis</p>
           </div>
           <div className='text-center my-2'>
+            <IoLogoFirebase size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
+            <p className='my-1'>Firebase</p>
+          </div>
+          <div className='text-center my-2'>
             <FaLinux size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
             <p className='my-1'>Linux</p>
           </div>
@@ -104,12 +104,16 @@ export const Experience = () => {
             <p className='my-1'>Docker</p>
           </div>
           <div className='text-center my-2'>
-            <SiApachekafka size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
-            <p className='my-1'>Kafka</p>
+            <SiKubernetes size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
+            <p className='my-1'>Kubernetes</p>
           </div>
           <div className='text-center my-2'>
             <SiTraefikproxy  size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
             <p className='my-1'>Traefik</p>
+          </div>
+          <div className='text-center my-2'>
+            <SiApachekafka size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
+            <p className='my-1'>Kafka</p>
           </div>
           <div className='text-center my-2'>
             <SiDatadog size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>

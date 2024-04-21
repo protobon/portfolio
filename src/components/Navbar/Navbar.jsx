@@ -27,11 +27,11 @@ export const Navbar = () => {
       ]
 
   return (
-    <Disclosure as="nav" className="bg-gradient-to-b from-slate-300 via-slate-100 to-white">
+    <Disclosure as="nav" className="bg-gradient-to-b from-[#c3bfb1] via-[#dfdcd0] to-[#fbf9f1]">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 md:px-6 lg:px-8">
-            <div className="relative flex h-16 items-center justify-between">
+            <div className="relative flex h-20 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center md:hidden">
                 {/* Mobile menu button*/}
                 <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-[var(--color-icon)] hover:bg-[var(--color-icon)] hover:text-white focus:outline-none focus:ring-1 focus:ring-inset focus:ring-white">
@@ -46,7 +46,7 @@ export const Navbar = () => {
               </div>
               <div className="flex flex-1 items-center justify-center md:items-stretch md:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                    <a href="/" className='text-2xl'><h1>Ayrton C.</h1></a>
+                    <a href="/" className='text-3xl'><h1>Ayrton C.</h1></a>
                 </div>
                 <div className="hidden md:ml-6 md:block">
                   <div className="flex space-x-2 lg:space-x-4">
@@ -69,7 +69,7 @@ export const Navbar = () => {
             </div>
           </div>
 
-          <Disclosure.Panel className="md:hidden absolute z-10 w-full bg-gradient-to-b from-white via-slate-100 to-slate-300">
+          <Disclosure.Panel className="md:hidden absolute z-10 w-full bg-gradient-to-t from-[#c3bfb1] via-[#dfdcd0] to-[#fbf9f1]">
             <div className="space-y-1 px-2 pb-3 pt-2 shadow-lg">
               {navigation.map((item, idx) => (
                 <Disclosure.Button

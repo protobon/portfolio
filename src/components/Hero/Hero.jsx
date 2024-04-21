@@ -16,26 +16,24 @@ export const Hero = () => {
     fetchData();
   }, [language]);
 
-
   return (
-    <section className='flex flex-col lg:flex-row lg:justify-between w-full h-screen px-4'>
-      <div className='object-contain mx-auto max-w-[80%] sm:max-w-[70%] md:max-w-[60%] mt-24 mb-12 lg:my-auto'>
+    <section className='bg-[url("/assets/oscillate.svg")] bg-cover bg-center flex flex-col justify-center w-full h-screen px-4'>
+      <div className='object-contain mx-auto max-w-[90%] sm:max-w-[80%] md:max-w-[60%] lg:max-w-[50%] xl:max-w-[40%] mt-24 mb-12'>
         <img 
           className='heroImage rounded-full shadow-2xl'
           src={getImage(hero.image)}
-          alt=""
+          alt="hero image"
         />
       </div>
       {
         hero.text && (
           <>
-            <div className='w-[90%] mx-auto mb-16 lg:my-auto lg:w-[60%] px-6 text-center font-semibold lg:col-span-2 text-md md:text-lg lg:text-xl xl:text-2xl'>
+            <div className='font-ubuntu mx-auto bg-white shadow-2xl rounded-3xl px-2 text-center font-semibold text-xl mb-16 lg:text-2xl'>
                 <ReactTyped
                 startWhenVisible
-                style={{color: 'var(--color-subtitle)'}}
-                className='[text-shadow:_1px_1px_2px_rgb(5_5_5_/_30%)]'
+                style={{color: 'var(--color-text)'}}
                 strings={hero.text}
-                typeSpeed={20}/>
+                typeSpeed={15}/>
             </div>
           </>
         )

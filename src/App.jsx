@@ -9,12 +9,16 @@ import { ScrollToTop } from './components/Util/ScrollToTop'
 function App() {
   return (
     <div>
-      <Navbar/>
-      <Hero/>
+      <div className=''>
+        <Navbar/>
+        <Hero/>
+      </div>
       <About/>
       <Experience/>
-      <Projects/>
-      <Contact/>
+      <div className='bg-[url("/assets/squares.svg")] bg-cover bg-center'>
+        <Projects/>
+        <Contact/>
+      </div>
       <ScrollToTop/>
     </div>
   )
