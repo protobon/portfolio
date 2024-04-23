@@ -42,7 +42,7 @@ export const About = () => {
               return <p key={idx} className='py-2'>{line}</p>
             }))
           }
-          <Modal items={modalItems} name="photos" legend={about.diplomas}/>
+          <Modal items={modalItems} name="files" legend={about.diplomas}/>
         </div>
       </div>
     </section>

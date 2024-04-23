@@ -9,7 +9,7 @@ import { DiMongodb, DiRedis } from "react-icons/di";
 import { IoLogoFirebase } from "react-icons/io5";
 import { SiApachekafka, SiGraphql, SiTailwindcss,
   SiTraefikproxy, SiFastapi, SiSocketdotio, SiAtlassian,
-  SiPostgresql, SiKubernetes, SiPrometheus } from "react-icons/si";
+  SiPostgresql, SiKubernetes, SiPrometheus, SiTensorflow } from "react-icons/si";
 
 
 export const Experience = () => {
@@ -26,7 +26,7 @@ export const Experience = () => {
   }, [language]);
 
   return (
-    <section id="experience" className='max-w-[1600px] mx-auto px-4 flex flex-col items-center w-full min-h-full'>
+    <section id="experience" className='mx-auto px-4 flex flex-col items-center w-full min-h-full'>
         <h1 className='py-6 md:text-4xl sm:text-3xl text-2xl'>{experience.title}</h1>
         <div className='w-full mx-auto my-4 grid place-items-center xl:grid-cols-12 lg:grid-cols-9 sm:grid-cols-6 grid-cols-3 font-semibold text-sm'>
           <div className='text-center m-2'>
@@ -100,6 +100,10 @@ export const Experience = () => {
           <div className='text-center m-2'>
             <IoLogoFirebase size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
             <p className='my-1'>Firebase</p>
+          </div>
+          <div className='text-center m-2'>
+            <SiTensorflow size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>
+            <p className='my-1'>Tensorflow</p>
           </div>
           <div className='text-center m-2'>
             <FaDocker size={50} style={{color: 'var(--color-icon)'}} className='m-auto'/>

@@ -23,7 +23,9 @@ export const Contact = () => {
   return (
     <section className='bg-gradient-to-t from-white via-white to-transparent mx-auto flex flex-col justify-start p-4 mb-0' id="contact">
         <h1 className='text-xl md:text-2xl lg:text-3xl'>{contact.title}</h1>
-        <p className='text-start mr-auto py-2 lg:text-lg md:text-md text-[1rem]'>{contact.description}</p>
+        {contact.description && (
+          <p className='text-start mr-auto py-2 lg:text-lg md:text-md text-[1rem]'>{contact.description}</p>
+        )}
         <div className='flex justify-start my-6 mx-2'>
             <a href={contact.linkedInUrl} target="_blank">
                 <FaLinkedin size={30} className='mx-3'/>

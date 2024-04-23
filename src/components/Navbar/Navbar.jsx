@@ -29,7 +29,7 @@ export const Navbar = () => {
     <Disclosure as="nav" className="bg-gradient-to-b from-[#c8ceda] to-transparent">
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-2 md:px-6 lg:px-8">
+          <div className="mx-auto max-w-[1920px] px-2 md:px-6 lg:px-8">
             <div className="relative flex h-20 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center md:hidden">
                 {/* Mobile menu button*/}
@@ -50,8 +50,8 @@ export const Navbar = () => {
                 <div className="hidden md:ml-6 md:block">
                   <div className="flex space-x-2 lg:space-x-4">
                     {navigation.map((item, idx) => (
-                      <a key={idx} href={item.href} className='rounded-md p-2 font-medium text-[var(--color-icon)] hover:text-[var(--color-span)] hover:bg-slate-500/10 transition duration-100'>
-                        {item.name}
+                      <a key={idx} href={item.href} className='text-[var(--color-icon)] hover:text-[var(--color-span)] rounded-md hover:before:bg-[var(--color-icon)] relative overflow-hidden p-3 transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-[var(--color-icon)] before:transition-all before:duration-500 hover:shadow-[var(--color-icon)] hover:before:left-0 hover:before:w-full'>
+                        <div className='font-medium relative z-10'>{item.name}</div>
                       </a>
                     ))}
                   </div>
@@ -64,15 +64,15 @@ export const Navbar = () => {
           </div>
 
           <Disclosure.Panel className="md:hidden absolute z-10 w-full bg-gradient-to-t from-[#c8ceda] to-transparent">
-            <div className="space-y-1 px-2 pb-3 pt-2 shadow-lg">
+            <div className="flex flex-col space-y-1 px-2 pb-3 pt-2 shadow-lg">
               {navigation.map((item, idx) => (
                 <Disclosure.Button
                   key={idx}
                   as="a"
                   href={item.href}
-                  className='block align-middle rounded-md p-2 font-medium text-[var(--color-icon)] hover:text-[var(--color-span)] hover:bg-slate-500/10 transition duration-100'
+                  className='text-[var(--color-icon)] hover:text-[var(--color-span)] rounded-md hover:before:bg-[var(--color-icon)] relative align-middle overflow-hidden p-3 transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-[var(--color-icon)] before:transition-all before:duration-500 hover:shadow-[var(--color-icon)] hover:before:left-0 hover:before:w-full'
                 >
-                {item.name}
+                  <div className='font-medium relative z-10'>{item.name}</div>
                 </Disclosure.Button>
               ))}
             </div>

@@ -49,6 +49,7 @@ span {
 
 section {
   margin-bottom: 6rem;
+  max-width: 1920px;
 }
 
 .heroImage {

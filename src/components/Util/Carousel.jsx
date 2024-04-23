@@ -22,25 +22,25 @@ export const Carousel = ({ items, name }) => {
     const currentItem = items[currentIndex];
   
     return (
-      <div className="mx-auto relative flex justify-center items-center overflow-hidden rounded-lg border-4 border-white shadow-2xl">
+      <div className="m-auto relative flex justify-center items-center overflow-hidden rounded-lg border-4 border-white shadow-2xl">
         <div className="w-full">
           {name === "projects" && (<ProjectCard project={currentItem}/>)}
-          {name === "photos" && (currentItem.includes(".pdf") ? <iframe src={getFile(currentItem)} className='w-screen h-[40vh] sm:h-[50vh] md:w-full'/> : <img src={getFile(currentItem)} />)}
-          <div className="flex justify-between">
-              <button
-                className={`absolute ${name === "projects" ? 'top-[30%]' : 'top-[50%]'} left-3 z-10 cursor-pointer text-white hover:text-slate-400 focus:outline-none`}
-                onClick={prevSlide}
-              >
-                <IoIosArrowBack size={30}/>
-              </button>
-              <button
-                className={`absolute ${name === "projects" ? 'top-[30%]' : 'top-[50%]'} right-3 z-10 cursor-pointer text-white hover:text-slate-400 focus:outline-none`}
-                onClick={nextSlide}
-              >
-                <IoIosArrowForward size={30}/>
-              </button>
-            </div>
+          {name === "files" && (currentItem.includes(".pdf") ? <iframe src={getFile(currentItem)} className='w-screen h-[40vh] sm:h-[50vh] md:w-full'/> : <img src={getFile(currentItem)} />)}
         </div>
-      </div>
+        <div className="flex justify-between">
+          <button
+            className={`absolute ${name === "projects" ? 'top-[25%]' : 'top-[50%]'} p-1 left-3 z-10 cursor-pointer bg-white/50 rounded-full text-[var(--color-icon)] hover:text-[var(--color-span)] hover:translate-x-[-3px] transition ease-linear duration-200 focus:outline-none`}
+            onClick={prevSlide}
+          >
+            <IoIosArrowBack size={35}/>
+          </button>
+          <button
+            className={`absolute ${name === "projects" ? 'top-[25%]' : 'top-[50%]'} p-1 right-3 z-10 cursor-pointer bg-white/50 rounded-full text-[var(--color-icon)] hover:text-[var(--color-span)] hover:translate-x-[3px] transition ease-linear duration-200 focus:outline-none`}
+            onClick={nextSlide}
+          >
+            <IoIosArrowForward size={35}/>
+          </button>
+        </div>
+        </div>
     );
   };
