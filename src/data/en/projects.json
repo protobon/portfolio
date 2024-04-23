@@ -1,10 +1,10 @@
 {
     "title": "Projects",
-    "description": "Code repositories of a few programs I've made, implementing different technologies to showcase my technical skills. I'll continue adding projects in the future.",
+    "description": "Code repositories of a few programs I've made implementing different technologies. I'll continue adding projects in the future.",
     "list": [
         {
             "title": "Warehouse",
-            "description": "Web API that lets you organize your warehouse items. It can be used as a backend service for e-commerce.",
+            "description": "Web API for organizing your warehouse items. It can be used as a backend service for e-commerce.",
             "text": "With user authentication, transactional database and asynchronous cache system. It can serve as a microservice in a Distributed System.",
             "image": "desk.jpg",
             "imageAlt": "Python code",
@@ -19,6 +19,24 @@
             "imageAlt": "Javascript code",
             "repo": "https://github.com/protobon/chat-room-socket-io",
             "technologies": ["Nodejs", "express js", "Socket IO"]
+        },
+        {
+            "title": "Cat Identifier",
+            "description": "Three-layer Neural Network trained to identify cats in pictures, using binary classification to determine whether there is a cat in the picture or not.",
+            "text": "Binary classification is used in real life not only in images, but also to filter spam, detect fraud, or even to give medical diagnosis.",
+            "image": "cat.jpg",
+            "imageAlt": "cat",
+            "repo": "https://github.com/protobon/deep_learning",
+            "technologies": ["Python", "Numpy", "TensorFlow"]
+        },
+        {
+            "title": "CLI Todo List",
+            "description": "Manage your daily Todos",
+            "text": "CLI means 'Command Line Interface', is a program handled by commands in a terminal, so it doesn't have a graphical interface. CLI programs are widely used in the world of software development.",
+            "image": "cli.jpg",
+            "imageAlt": "terminal",
+            "repo": "https://github.com/protobon/deep_learning",
+            "technologies": ["Go", "Cobra"]
         },
         {
             "title": "Web Portfolio",

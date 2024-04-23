@@ -1,9 +1,9 @@
 {
     "title": "Sobre mí",
     "lines": [
-        "Cursé el programa Fundamentos de Ingeniería de Software en Holberton School Uruguay en 2021, y me gradué en 2022, más o menos en el tiempo que ChatGPT salió al público. Desde entonces, trabajo duro y continúo estudiando lo mejor y último en tecnología para entender cómo esta nos ayuda en la vida real, y formar parte de quienes lo hacen posible.",
-        "Hoy, soy un desarrollador full-stack con foco principalmente en infraestructura de servidores, alta disponibilidad, escalabilidad y rápida recuperación frente a desastres.",
-        "Puedo decir que me siento orgulloso del progreso que hice hasta ahora, pero no es suficiente. Con el avance en tecnologías de Inteligencia Artificial, siento que saber infraestructura es la base, para así poder enfocarnos en las oportunidades que nos ofrece la IA, al mismo tiempo que nos vamos adaptando a esta nueva era de tecnología."
+        "Me gradué del programa Fundamentos en Ingeniería de Software de Holberton School Uruguay en Marzo de 2022, un poco antes de que OpenAI liberase ChatGPT al público; el primer chatbot de Inteligencia Artificial conocido mundialmente. El año anterior, Github Copilot ya estaba haciendo fama como la primer IA que te ayuda a programar.",
+        "Aunque estas herramientas mejoran en gran cantidad la productividad en múltiples áreas de trabajo, como profesional de la industria de tecnología es importante entender el funcionamiento detrás de las cosas.",
+        "Por eso hoy, con casi tres años de experiencia, soy un desarrollador full-stack con pasión y dedicación en lo que hago."
     ],
     "diplomas": "Ver diplomas y certificados",
     "image": "about.jpg",

@@ -1,24 +1,42 @@
 {
     "title": "Proyectos",
-    "description": "Repositorios de código de algunos programas que desarrollé implementando diferentes tecnologías para demostrar mis habilidades técnicas. Continuaré agregando proyectos en el futuro.",
+    "description": "Repositorios de código de algunos programas que desarrollé implementando diferentes tecnologías. Continuaré agregando proyectos en el futuro.",
     "list": [
         {
             "title": "Warehouse",
             "description": "API web que te permite organizar tus productos de almacén o depósito. Puede usarse como backend de e-commerce.",
-            "text": "Con autenticación de usuarios, base de datos transaccional y sistema de caché asíncrono. Puede trabajar como microservicio en un Sistema Distribuído.",
+            "text": "Con autenticación de usuarios, base de datos transaccional y sistema de caché asíncrono. Sirve como microservicio en un Sistema Distribuído.",
             "image": "desk.jpg",
             "imageAlt": "work",
             "repo": "https://github.com/protobon/python-fastapi-mongodb-redis",
-            "technologies": ["Python", "FastAPI", "MongoDB", "Firebase", "Redis"]
+            "technologies": ["Python", "FastAPI", "MongoDB", "Firebase", "Redis", "Docker"]
         },
         {
             "title": "Sala de Chat",
             "description": "Conecta a usuarios en una sala de chat a través de WebSockets.",
             "text": "El objetivo de esta app es demostrar comunicación en tiempo real, basada en eventos. Esta tecnología también se utiliza para enviar notificaciones, sincronización de datos, seguimiento de tramas GPS, y más.",
             "image": "chat.jpg",
-            "imageAlt": "Javascript code",
+            "imageAlt": "globo de chat",
             "repo": "https://github.com/protobon/chat-room-socket-io",
             "technologies": ["Nodejs", "expressjs", "Socket IO"]
+        },
+        {
+            "title": "Identificador de Gatos",
+            "description": "Red neuronal de tres capas entrenada para identificar gatos en imágenes, utiliza clasificación binaria para determinar si hay un gato en la imagen o no.",
+            "text": "La clasificación binaria se utiliza en la vida real no solo en imágenes, sino también para filtrar spam, detectar fraudes, e incluso para dar diagnósticos médicos.",
+            "image": "cat.jpg",
+            "imageAlt": "gato",
+            "repo": "https://github.com/protobon/deep_learning",
+            "technologies": ["Python", "Numpy", "TensorFlow"]
+        },
+        {
+            "title": "Lista de tareas CLI",
+            "description": "Administrador de tareas cotidianas",
+            "text": "CLI significa 'Command Line Interface', es un programa que se maneja a través de una terminal de comandos, o sea que no tiene una interfaz gráfica. Los programas de CLI son famosos en el mundo del desarrollo de software.",
+            "image": "cli.jpg",
+            "imageAlt": "terminal",
+            "repo": "https://github.com/protobon/deep_learning",
+            "technologies": ["Go", "Cobra"]
         },
         {
             "title": "Portfolio Web",
