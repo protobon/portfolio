@@ -7,6 +7,6 @@ export default defineConfig({
   build: {
     outDir: 'build', // Output directory for the build process
     emptyOutDir: true, // Clear the output directory before building
-    base: '/portfolio', // Set the base path for deployed assets (replace with your desired path)
+    base: '/portfolio/', // Set the base path for deployed assets (replace with your desired path)
   },
 })

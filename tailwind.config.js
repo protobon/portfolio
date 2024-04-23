@@ -9,9 +9,7 @@ export default {
     extend: {
       fontFamily: {
         openSans: ["Open Sans Variable"],
-        montserrat: ["Montserrat Variable"],
-        ubuntu: ["'Ubuntu Mono', monospace;"],
-        roboto: ["'Roboto Mono Variable', monospace;"]
+        montserrat: ["Montserrat Variable"]
       }
     }
   },
