@@ -1,11 +1,12 @@
 {
     "title": "About Me",
     "lines": [
-        "Cursé el programa Fundamentos de Ingeniería de Software en Holberton School Uruguay en 2021, y me gradué en 2022, más o menos en el tiempo que ChatGPT salió al público. Desde entonces, trabajo duro y continúo estudiando lo mejor y último en tecnología para entender cómo esta nos ayuda en la vida real, y formar parte de quienes lo hacen posible.",
-        "Hoy, soy un desarrollador full-stack con foco principalmente en infraestructura de servidores, alta disponibilidad, escalabilidad y rápida recuperación frente a desastres.",
-        "Puedo decir que me siento orgulloso del progreso que hice hasta ahora, pero no es suficiente. Con el avance en tecnologías de Inteligencia Artificial, siento que saber infraestructura es la base, para así poder enfocarnos en las oportunidades que nos ofrece la IA, al mismo tiempo que nos vamos adaptando a esta nueva era de tecnología."
+        "I did the Software Engineering Foundations program at Holberton School Uruguay in 2021, and graduated in 2022, around the time ChatGPT was released to the public. Since then, I am working hard and keep studying the best and latest technologies to understand how they help us in real life, and be part of the people who make it possible.",
+        "Now, I am a full-stack developer with a main focus on server infrastructure, high availability, scalability, and quick recovery from disaster.",
+        "I can really say that I am proud of the progress I’ve made so far, but it’s not enough. With the rise in Artificial Intelligence technologies, it now feels like service infrastructure is just something you need to know by hand, so you can focus on the opportunities AI has to offer, while also adapting into this new era of technology."
     ],
+    "diplomas": "View diplomas and certificates",
     "image": "about.jpg",
-    "imageAlt": "En Hotel Argentino, Piriápolis",
+    "imageAlt": "Outside of Hotel Argentino, Piriápolis, Uruguay",
     "imageText": ""
 }

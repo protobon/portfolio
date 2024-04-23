@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useLanguage } from '../Util/LanguageContext';
-import { Carousel } from './Carousel';
+import { Carousel } from '../Util/Carousel';
 
 export const Projects = () => {
   const { language } = useLanguage();
@@ -24,7 +24,7 @@ export const Projects = () => {
           <p className="text-center shadow-2xl bg-white mx-auto my-4 p-4 lg:text-lg md:text-md text-[1rem] rounded-lg">
             {projects.description}
           </p>
-          <Carousel projects={projects.list}/>
+          <Carousel items={projects.list} name="projects"/>
         </>
       )}
     </section>

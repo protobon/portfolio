@@ -1,15 +1,15 @@
 {
     "title": "Projects",
-    "description": "Public repositories with some programs I've made to showcase my technical skills, the products are not available online, it's just code samples. I'll expand this list in the near future.",
+    "description": "Code repositories of a few programs I've made, implementing different technologies to showcase my technical skills. I'll continue adding projects in the future.",
     "list": [
         {
             "title": "Warehouse",
             "description": "Web API that lets you organize your warehouse items. It can be used as a backend service for e-commerce.",
-            "text": "With user authentication, transactional database and asynchronous cache system. Tip: Import your own database and you'll have a tool to administrate your inventory.",
+            "text": "With user authentication, transactional database and asynchronous cache system. It can serve as a microservice in a Distributed System.",
             "image": "desk.jpg",
             "imageAlt": "Python code",
             "repo": "https://github.com/protobon/python-fastapi-mongodb-redis",
-            "technologies": ["Python", "FastAPI", "Firebase Auth", "MongoDB", "Redis"]
+            "technologies": ["Python", "FastAPI", "Firebase", "MongoDB", "Redis"]
         },
         {
             "title": "Chat Room",

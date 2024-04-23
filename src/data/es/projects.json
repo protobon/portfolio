@@ -1,6 +1,6 @@
 {
     "title": "Proyectos",
-    "description": "Repositorios de código de algunos programas que desarrollé para demostrar mis habilidades técnicas. Continuaré agregando proyectos en el futuro.",
+    "description": "Repositorios de código de algunos programas que desarrollé implementando diferentes tecnologías para demostrar mis habilidades técnicas. Continuaré agregando proyectos en el futuro.",
     "list": [
         {
             "title": "Warehouse",
@@ -9,7 +9,7 @@
             "image": "desk.jpg",
             "imageAlt": "work",
             "repo": "https://github.com/protobon/python-fastapi-mongodb-redis",
-            "technologies": ["Python", "FastAPI", "MongoDB", "Firebase Auth", "Redis"]
+            "technologies": ["Python", "FastAPI", "MongoDB", "Firebase", "Redis"]
         },
         {
             "title": "Sala de Chat",

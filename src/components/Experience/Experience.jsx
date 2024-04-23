@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useLanguage } from '../Util/LanguageContext';
-import { getImage } from '../../utils'
+import { getFile } from '../../utils'
 import { FaHtml5, FaPython, FaReact, FaGitAlt, 
   FaGithub, FaDocker, FaLinux, FaCss3 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
@@ -131,7 +131,7 @@ export const Experience = () => {
           <div className="max-w-xs mx-auto lg:my-auto lg:mx-8 my-6 rounded-lg overflow-hidden shadow-2xl transition duration-300 hover:-translate-y-1 hover:scale-105">
             <img
               className='w-full'
-              src={getImage(experience.image)}
+              src={getFile(experience.image)}
               alt={experience.imageAlt} />
           </div>
         </div>
