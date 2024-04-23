@@ -41,6 +41,7 @@ export const Carousel = ({ items, name }) => {
             <IoIosArrowForward size={35}/>
           </button>
         </div>
-        </div>
+        <div className='absolute top-1 left-1 text-[var(--color-icon)] bg-white/50 rounded-full p-1 font-medium'>{`${currentIndex + 1}/${items.length}`}</div>
+      </div>
     );
   };
