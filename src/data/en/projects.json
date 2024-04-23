@@ -1,6 +1,6 @@
 {
     "title": "Projects",
-    "description": "Code repositories of a few programs I've made implementing different technologies. I'll continue adding projects in the future.",
+    "description": "Code repositories of a few programs I've made implementing different technologies. I work on current and new projects regularly.",
     "list": [
         {
             "title": "Warehouse",
@@ -40,7 +40,8 @@
         },
         {
             "title": "Web Portfolio",
-            "description": "The source code of the page you're in right now :)",
+            "description": "The source code of the page you're in.",
+            "text": "Static page with different components handled with React hooks, all text and images is dynamically added from JSON files. Responsiveness and design with Tailwind CSS.",
             "image": "jsCode.jpg",
             "imageAlt": "Javascript code",
             "repo": "https://github.com/protobon/portfolio",

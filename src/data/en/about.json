@@ -1,10 +1,9 @@
 {
     "title": "About Me",
     "lines": [
-        "I did the Software Engineering Foundations program at Holberton School Uruguay in 2021, and graduated in 2022, around the time OpenAI released ChatGPT to the public; the first globally known Large Language Model.",
-        "Before that, Github Copilot was already making fame as a powerful AI pair programmer. And every since then, I keep working and studying the best and latest technologies to understand how they can help us in real life, and be part of the people who make it possible.",
-        "Today, with almost three years of experience in the industry, I am a full-stack developer with a main interest in server infrastructure: high availability, scalability, and prevention of failure.",
-        "I really am proud of the progress I made so far, but I know it’s not enough. With the rise in Artificial Intelligence technologies, good service infrastructure is necessary, so we can work on the opportunities AI has to offer, which are endless, as we are adapting to this new era of technology."
+        "I graduated from the Software Engineering Foundations program at Holberton School Uruguay in 2022, some time before OpenAI released ChatGPT to the public; the first globally known AI chatbot. The previous year, Github Copilot was already making fame as the first AI pair programmer.",
+        "Even though these tools boost productivity in several work fields, as a tech industry professional it is important to understand the building blocks of all things.",
+        "That's why today, with almost three years of experience, I am a full-stack developer driven by passion and dedication to my work."
     ],
     "diplomas": "View diplomas and certificates",
     "image": "about.jpg",

@@ -1,6 +1,6 @@
 {
     "title": "Proyectos",
-    "description": "Repositorios de código de algunos programas que desarrollé implementando diferentes tecnologías. Continuaré agregando proyectos en el futuro.",
+    "description": "Repositorios de código de algunos programas que desarrollé implementando diferentes tecnologías. Trabajo regularmente en proyectos actuales y nuevos.",
     "list": [
         {
             "title": "Warehouse",
@@ -31,8 +31,8 @@
         },
         {
             "title": "Lista de tareas CLI",
-            "description": "Administrador de tareas cotidianas",
-            "text": "CLI significa 'Command Line Interface', es un programa que se maneja a través de una terminal de comandos, o sea que no tiene una interfaz gráfica. Los programas de CLI son famosos en el mundo del desarrollo de software.",
+            "description": "Administrador de tareas cotidianas.",
+            "text": "Este programa no tiene una interfaz gráfica, sino que se maneja a través de una consola de comandos o terminal. Los programas de CLI son ampliamente usados por desarrolladores de todo el mundo.",
             "image": "cli.jpg",
             "imageAlt": "terminal",
             "repo": "https://github.com/protobon/deep_learning",
@@ -40,7 +40,8 @@
         },
         {
             "title": "Portfolio Web",
-            "description": "El código de esta página :)",
+            "description": "El código de la página donde estás ahora.",
+            "text": "Página estática con distintos componententes manejados con React hooks, todo el texto e imágenes es cargado dinámicamente desde archivos JSON. Responsividad y diseño con Tailwind CSS.",
             "image": "jsCode.jpg",
             "imageAlt": "Javascript code",
             "repo": "https://github.com/protobon/portfolio",
