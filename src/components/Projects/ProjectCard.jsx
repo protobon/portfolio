@@ -1,5 +1,4 @@
 import React from 'react'
-import { getFile } from "../../utils"
 
 
 export const ProjectCard = ({ project: {title, image, imageAlt, description, text, repo, technologies} }) => {  
@@ -7,7 +6,7 @@ export const ProjectCard = ({ project: {title, image, imageAlt, description, tex
     <div className='bg-white max-w-xl'>
       <img
         className='rounded-lg w-full object-cover'
-        src={getFile(image)}
+        src={image}
         alt={imageAlt}
       />
       <div className="flex flex-col px-2 h-96">

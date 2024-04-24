@@ -5,8 +5,15 @@
         "Even though these tools boost productivity in several work fields, as a tech industry professional it is important to understand the building blocks of all things.",
         "That's why today, with almost three years of experience, I am a full-stack developer driven by passion and dedication to my work."
     ],
-    "diplomas": "View diplomas and certificates",
-    "image": "about.jpg",
+    "diplomasLegend": "View diplomas and certificates",
+    "diplomas": [
+        "https://drive.google.com/thumbnail?&id=1HYHfc5hnxZ-r6So5trOnr8THJsz-sHVJ&sz=w1000",
+        "https://drive.google.com/thumbnail?&id=1UvmEtAfL4PfomdNdzprSOBgsSDMyi3lP&sz=w1000",
+        "https://drive.google.com/thumbnail?&id=1YBeUnRPkdzXzdHqgYUopkDJSoFShrdtY&sz=w1000",
+        "https://drive.google.com/thumbnail?&id=1SDQbs6lDXc3jninyKH_NGSnl1RSYABwl&sz=w1000",
+        "https://drive.google.com/thumbnail?&id=17YbBYF-Qfk0Yo9sk27eLa-_Lhrt0ZZvg&sz=w1000"
+    ],
+    "image": "https://drive.google.com/thumbnail?&id=1H46hDufZGrt1-XxXdKRaqFlyKV-OgRqo&sz=w1000",
     "imageAlt": "Outside of Hotel Argentino, Piriápolis, Uruguay",
     "imageText": ""
 }

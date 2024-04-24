@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { IoIosArrowBack, IoIosArrowForward  } from "react-icons/io";
 import { ProjectCard } from '../Projects/ProjectCard';
-import { getFile } from '../../utils'
 
 
 export const Carousel = ({ items, name }) => {
@@ -25,7 +24,7 @@ export const Carousel = ({ items, name }) => {
       <div className="m-auto relative flex justify-center items-center overflow-hidden rounded-lg border-4 border-white shadow-2xl">
         <div className="w-full">
           {name === "projects" && (<ProjectCard project={currentItem}/>)}
-          {name === "files" && (currentItem.includes(".pdf") ? <iframe src={getFile(currentItem)} className='w-screen h-[40vh] sm:h-[50vh] md:w-full'/> : <img src={getFile(currentItem)} />)}
+          {name === "files" && (currentItem.includes(".pdf") ? <iframe src={currentItem} className='w-screen h-[40vh] sm:h-[50vh] md:w-full'/> : <img src={currentItem} />)}
         </div>
         <div className="flex justify-between">
           <button
