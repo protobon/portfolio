@@ -45,7 +45,7 @@ export const Navbar = () => {
               </div>
               <div className="flex flex-1 items-center justify-center md:items-stretch md:justify-start">
                 <div className="flex flex-shrink-0 items-center text-3xl">
-                    <a href="/"><h1>Ayrton C.</h1></a>
+                    <a href="/portfolio"><h1>Ayrton C.</h1></a>
                 </div>
                 <div className="hidden md:ml-6 md:block">
                   <div className="flex space-x-2 lg:space-x-4">
