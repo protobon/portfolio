@@ -6,16 +6,17 @@ import { Projects } from './components/Projects/Projects'
 import { Contact } from './components/Contact/Contact'
 import { ScrollToTop } from './components/Util/ScrollToTop'
 
+
 function App() {
   return (
     <div>
-      <div className='bg-[url("/assets/oscillate.svg")] bg-cover bg-center '>
+      <div className='bg-[url("./data/oscillate.svg")] bg-cover bg-center'>
         <Navbar/>
         <Hero/>
       </div>
       <About/>
       <Experience/>
-      <div className='bg-[url("/assets/squares.svg")] bg-cover bg-center'>
+      <div className='bg-[url("./data/squares.svg")] bg-cover bg-center'>
         <Projects/>
         <Contact/>
       </div>
