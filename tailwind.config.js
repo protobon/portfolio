@@ -7,10 +7,7 @@ export default {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        openSans: ["Open Sans Variable"],
-        montserrat: ["Montserrat Variable"]
-      }
+      
     }
   },
   plugins: [],
