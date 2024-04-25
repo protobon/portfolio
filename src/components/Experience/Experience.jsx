@@ -19,11 +19,6 @@ export const Experience = () => {
   return (
     <section id="experience" className='mx-auto px-4 flex flex-col items-center w-full min-h-full'>
         <h1 className='py-6 md:text-4xl sm:text-3xl text-2xl'>{experience.title}</h1>
-        {experience.description && (
-            <p className='text-start bg-white my-4 lg:text-lg md:text-md text-[1rem] p-4 rounded-lg shadow-2xl'>
-            {experience.description}
-            </p>
-          )}
         <Technologies/>
         <div className='flex flex-col items-center mt-8 lg:flex-row lg:justify-start'>
           <div className='flex flex-col m-3'>

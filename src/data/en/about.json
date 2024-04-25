@@ -1,9 +1,9 @@
 {
     "title": "About Me",
     "lines": [
-        "I graduated from the Software Engineering Foundations program at Holberton School Uruguay in early 2022, some time before OpenAI released ChatGPT to the public; the first globally known AI chatbot. The previous year, Github Copilot was already making fame as the first AI pair programmer.",
-        "Even though these tools boost productivity in several work fields, as a tech industry professional it is important to understand the building blocks of all things.",
-        "That's why today, with almost three years of experience, I am a full-stack developer driven by passion and dedication to my work in both freelance and companies."
+        "I completed the Software Engineering Foundations program at Holberton School Uruguay, where I learned all the essentials about software, algorithms, data structures, networking and more... With projects and deadlines, exams, and lots of code. I graduated in March 2022, some time before OpenAI released ChatGPT to the public; the first globally known AI chatbot. The previous year, Github Copilot was already making fame as the first AI pair programmer.",
+        "Even though these tools boost productivity in several work fields, software included, as a tech industry professional it is important to understand the building blocks of these tools.",
+        "That's why today, with almost three years of experience, I am a full-stack developer driven by passion and dedication to my work."
     ],
     "diplomasLegend": "View diplomas and certificates",
     "diplomas": [
