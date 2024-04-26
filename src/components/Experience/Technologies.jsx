@@ -39,7 +39,7 @@ export const Technologies = () => {
 
   const doubleSlides = [...technologies, ...technologies]
   return (
-    <div className='slide-track text-center'>
+    <div className='w-screen slide-track text-center'>
       {/* Duplicate the content to create seamless loop */}
       <div className={`flex flex-row`}>
         {doubleSlides.map((tech) => (
