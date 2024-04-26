@@ -17,9 +17,11 @@ export const Experience = () => {
   }, [language]);
 
   return (
-    <section id="experience" className='mx-auto px-4 flex flex-col items-center w-full min-h-full'>
-        <h1 className='py-6 md:text-4xl sm:text-3xl text-2xl'>{experience.title}</h1>
-        <Technologies/>
+    <section id="experience" className='flex flex-col mx-auto px-0 w-full min-h-full'>
+        <h1 className='text-center py-6 md:text-4xl sm:text-3xl text-2xl'>{experience.title}</h1>
+        <div className='slider whitespace-nowrap py-10'>
+          <Technologies/>
+        </div>
         <div className='flex flex-col items-center mt-8 lg:flex-row lg:justify-start'>
           <div className='flex flex-col m-3'>
             <div className='flex flex-row justify-between mx-2'>
