@@ -13,6 +13,16 @@
   unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
 }
 
+/* jost-latin-wght-normal */
+@font-face {
+  font-family: 'Jost Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/jost:vf@latest/latin-wght-normal.woff2) format('woff2-variations');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
 html {
     scroll-behavior: smooth;
     font-family: 'Montserrat Variable', sans-serif;
@@ -62,22 +72,35 @@ section {
   max-width: 1920px;
 }
 
-.heroImage {
+/* FadeIn */
+.appearFromLeft {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   opacity: 0;
   transform: translateX(-100%);
-  animation: showImage 1.5s ease-in-out forwards;
+  animation: fromLeft 1.5s ease-in-out forwards;
 }
 
-@keyframes showImage {
+@keyframes fromLeft {
   from { opacity: 0; transform: translateX(-100%); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+.appearFromRight {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0;
+  transform: translateX(100%);
+  animation: fromRight 1.5s ease-in-out forwards;
+}
+
+@keyframes fromRight {
+  from { opacity: 0; transform: translateX(100%); }
   to { opacity: 1; transform: translateX(0); }
 }
 
 /* ICON SLIDER */
 .slider {
-  margin: auto;
   overflow: hidden;
   position: relative;
 }
