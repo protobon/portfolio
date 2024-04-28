@@ -1,1 +1,0 @@
-const o=["Saludos! Me llamo Ayrton y soy un desarrollador web de Uruguay. =)"],e="https://drive.google.com/thumbnail?&id=16LQfH5OCkwCx9n8PkGgrVo_5zExiZ3Oe&sz=w1000",t={text:o,image:e};export{t as default,e as image,o as text};

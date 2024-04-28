@@ -1,1 +1,0 @@
-const t="https://instagram.com/ayrton.uy",o="https://linkedin.com/in/ayrton-coelho",n="https://github.com/protobon",i="ayrtoncoelhods@gmail.com",c="Reach out to any of the options below",a="Contact",l={instagramUrl:t,linkedInUrl:o,githubUrl:n,mail:i,description:c,title:a};export{l as default,c as description,n as githubUrl,t as instagramUrl,o as linkedInUrl,i as mail,a as title};
