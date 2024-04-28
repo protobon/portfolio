@@ -19,11 +19,10 @@ export const Carousel = ({ items, name }) => {
     };
   
     const currentItem = items[currentIndex];
-  
     return (
       <div className="m-auto relative flex justify-center items-center overflow-hidden rounded-lg border-4 border-white shadow-2xl">
         <div className="w-full">
-          {name === "projects" && (<ProjectCard project={currentItem}/>)}
+          {name === "projects" && (<ProjectCard project={currentItem} />)}
           {name === "files" && (currentItem.includes(".pdf") ? <iframe src={currentItem} className='w-screen h-[40vh] sm:h-[50vh] md:w-full'/> : <img src={currentItem} />)}
         </div>
         <div className="flex justify-between">

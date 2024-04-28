@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react'
-import { useLanguage } from '../Util/LanguageContext';
+import React, { useState, useEffect } from 'react'
 import {
   FaLinkedin,
   FaInstagram,
@@ -7,14 +6,13 @@ import {
 import { MdAlternateEmail } from "react-icons/md";
 
 
-export const Contact = () => {
-  const { language } = useLanguage();
+export const Contact = ({ language }) => {
   const [contact, setContact] = useState({});
 
   useEffect(() => {
     const fetchData = async () => {
-      const jsonData = await import(`../../data/${language}/contact.json`);
-      setContact(jsonData);
+      const contactData = await import(`../../data/${language}/contact.json`);
+      setContact(contactData);
     };
 
     fetchData();
@@ -22,7 +20,7 @@ export const Contact = () => {
 
   return (
     <section className='bg-gradient-to-t from-white via-white to-transparent mx-auto flex flex-col justify-start p-4 mb-0' id="contact">
-        <h1 className='text-xl md:text-2xl lg:text-3xl'>{contact.title}</h1>
+        <h1 className='md:text-5xl sm:text-4xl text-3xl'>{contact.title}</h1>
         {contact.description && (
           <p className='text-start mr-auto py-2 lg:text-lg md:text-md text-[1rem]'>{contact.description}</p>
         )}

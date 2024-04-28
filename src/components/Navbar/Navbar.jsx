@@ -1,29 +1,25 @@
 import React, { useState, useEffect } from 'react'
 import { Disclosure } from '@headlessui/react'
-import { useLanguage } from '../Util/LanguageContext';
 import { IoMdMenu, IoMdClose } from "react-icons/io";
-import { LanguageDropdown } from '../Util/LanguageDropdown';
 
 
-export const Navbar = () => {
-    const { language } = useLanguage();
-    const [navbar, setNavbar] = useState({});
+export const Navbar = ({ language }) => {
+  const [navbar, setNavbar] = useState({});
+  
+  useEffect(() => {
+    const fetchData = async () => {
+      const navbarData = await import(`../../data/${language}/navbar.json`);
+      setNavbar(navbarData);
+    };
 
-    useEffect(() => {
-        const fetchData = async () => {
-        const jsonData = await import(`../../data/${language}/navbar.json`);
-        setNavbar(jsonData);
-        };
-
-        fetchData();
-    }, [language]);
-
-    const navigation = [
-        { name: navbar.about, href: '#about'},
-        { name: navbar.experience, href: '#experience'},
-        { name: navbar.projects, href: '#projects'},
-        { name: navbar.contact, href: '#contact'},
-      ]
+    fetchData();
+  }, [language]);
+  const navigation = [
+      { name: navbar.about, href: '#about'},
+      { name: navbar.experience, href: '#experience'},
+      { name: navbar.projects, href: '#projects'},
+      { name: navbar.contact, href: '#contact'},
+    ]
 
   return (
     <Disclosure as="nav" className="bg-gradient-to-b from-[#c8ceda] to-transparent">
@@ -56,9 +52,6 @@ export const Navbar = () => {
                     ))}
                   </div>
                 </div>
-              </div>
-              <div className="absolute inset-y-0 right-0 flex items-center pr-2 md:static md:inset-auto md:ml-6 md:pr-0">
-                <LanguageDropdown/>
               </div>
             </div>
           </div>

@@ -39,11 +39,11 @@ export const Technologies = () => {
 
   const doubleSlides = [...technologies, ...technologies]
   return (
-    <div className='w-screen slide-track text-center'>
+    <div className='slide-track text-center'>
       {/* Duplicate the content to create seamless loop */}
       <div className={`flex flex-row`}>
-        {doubleSlides.map((tech) => (
-          <div key={tech.name} className='my-2 mx-6'>
+        {doubleSlides.map((tech, idx) => (
+          <div key={idx} className='my-2 mx-6'>
             {tech.icon}
             <p className='my-1'>{tech.name}</p>
           </div>

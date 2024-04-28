@@ -7,7 +7,6 @@ export const Modal = ({ items, name, legend }) => {
   const [open, setOpen] = useState(false)
 
   const cancelButtonRef = useRef(null)
-
   return (
     <div className='mx-auto flex flex-col'>
       <span onClick={() => setOpen(true)} className='underline cursor-pointer font-medium text-[var(--color-span)] text-md'>{legend}</span>
