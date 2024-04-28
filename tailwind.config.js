@@ -7,8 +7,11 @@ export default {
   ],
   theme: {
     extend: {
-      
+      fontFamily: {
+        montserrat: ['Montserrat Variable'],
+        jost: ['Jost Variable']
+      }
     }
   },
-  plugins: [],
+  plugins: [require("tailwind-gradient-mask-image")],
 }
