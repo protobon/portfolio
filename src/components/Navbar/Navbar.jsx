@@ -22,7 +22,7 @@ export const Navbar = ({ language }) => {
     ]
 
   return (
-    <Disclosure as="nav" className="bg-gradient-to-b from-[#c8ceda] to-transparent">
+    <Disclosure as="nav" className="bg-gradient-to-b from-white to-transparent">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-[1920px] px-2 md:px-6 lg:px-8">

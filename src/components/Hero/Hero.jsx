@@ -14,8 +14,8 @@ export const Hero = ({ files, language }) => {
   }, [language]);
 
   return (
-    <section id='hero' className='flex flex-col justify-start mb-0 md:flex-row md:justify-between md:mb-12 w-full h-screen max-h-[2000px]'>
-      <div className='appearFromLeft gradient-mask-r-70-d h-[40%] md:h-auto md:w-full'>
+    <section id='hero' className='mx-auto flex flex-col md:flex-row md:justify-between w-full h-screen max-h-[2000px]'>
+      <div className='appearFromLeft gradient-mask-r-70-d h-[45%] md:h-auto md:w-full'>
         <img 
           className='object-cover w-full h-full gradient-mask-t-80-d'
           src={files[0]}
@@ -35,14 +35,20 @@ export const Hero = ({ files, language }) => {
           ]}
           typeSpeed={60}
           backSpeed={10}
+          style={{color: 'var(--color-icon)'}}
           loop
           />
         </div>
-        <a href="#about" className='text-white'>
+        <a href="#about" className='text-white absolute bottom-[-4.5rem] z-10'>
           <button className='max-w-fit md:hidden mt-10 p-4 rounded-xl shadow-xl bg-[var(--color-icon)] text-sm hover:text-[var(--color-span)] transition-transform duration-300 hover:translate-y-[-5px]'>
             {hero.button}
           </button>
         </a>
+      </div>
+      <div className="triangle-divider-bottom">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+              <path d="M1200 0L0 0 598.97 114.72 1200 0z" className="shape-fill"></path>
+          </svg>
       </div>
     </section>
   )

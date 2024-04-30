@@ -68,8 +68,8 @@ span {
 }
 
 section {
-  margin-bottom: 6rem;
   max-width: 1920px;
+  overflow-x: hidden;
 }
 
 /* FadeIn */
@@ -140,4 +140,73 @@ section {
   100% {
       transform: translateX(calc(-118px * 24));
   }
+}
+
+.triangle-divider-bottom {
+  position: absolute;
+  bottom: -5.1rem;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.triangle-divider-bottom svg {
+  position: relative;
+  width: calc(100% + 1.3px);
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 8rem;
+}
+
+.triangle-divider-bottom .shape-fill {
+  fill: var(--color-bg-about);
+}
+
+.wave-shape-divider {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave-shape-divider svg {
+  position: relative;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.wave-shape-divider .about-fill {
+  fill: var(--color-bg-about);
+}
+
+.wave-shape-divider .shape-fill {
+  fill: var(--color-bg-experience);
+}
+
+.curve-shape-divider {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.curve-shape-divider svg {
+  width: calc(286% + 1.3px);
+  height: 150px;
+}
+
+.curve-shape-divider .shape-fill {
+  fill: var(--color-bg-about);
+}
+
+.bg-experience {
+  background: linear-gradient(to top, var(--color-bg-experience) 99%, var(--color-bg-about)) 99% 100%;
 }
