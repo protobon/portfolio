@@ -39,16 +39,11 @@ export const Hero = ({ files, language }) => {
           loop
           />
         </div>
-        <a href="#about" className='text-white absolute bottom-[-4.5rem] z-10'>
+        <a href="#about" className='text-white'>
           <button className='max-w-fit md:hidden mt-10 p-4 rounded-xl shadow-xl bg-[var(--color-icon)] text-sm hover:text-[var(--color-span)] transition-transform duration-300 hover:translate-y-[-5px]'>
             {hero.button}
           </button>
         </a>
-      </div>
-      <div className="triangle-divider-bottom">
-          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-              <path d="M1200 0L0 0 598.97 114.72 1200 0z" className="shape-fill"></path>
-          </svg>
       </div>
     </section>
   )

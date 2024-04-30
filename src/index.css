@@ -142,9 +142,9 @@ section {
   }
 }
 
-.triangle-divider-bottom {
-  position: absolute;
-  bottom: -5.1rem;
+.triangle-divider {
+  position: relative;
+  top: 0;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -152,8 +152,7 @@ section {
   transform: rotate(180deg);
 }
 
-.triangle-divider-bottom svg {
-  position: relative;
+.triangle-divider svg {
   width: calc(100% + 1.3px);
   max-width: 1920px;
   margin-left: auto;
@@ -161,7 +160,7 @@ section {
   height: 8rem;
 }
 
-.triangle-divider-bottom .shape-fill {
+.triangle-divider .shape-fill {
   fill: var(--color-bg-about);
 }
 
@@ -175,7 +174,6 @@ section {
 }
 
 .wave-shape-divider svg {
-  position: relative;
   width: calc(100% + 1.3px);
   height: 150px;
 }
