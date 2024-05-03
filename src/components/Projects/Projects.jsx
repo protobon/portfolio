@@ -1,7 +1,9 @@
 import React, { useState, useEffect, useRef, memo } from 'react'
 import { Carousel } from '../Util/Carousel';
+import { useLanguage } from '../Util/LanguageContext';
 
-export const Projects = ({ files, language }) => {
+export const Projects = ({ files }) => {
+  const { language } = useLanguage();
   const [projects, setProjects] = useState({});
 
   useEffect(() => {

@@ -22,7 +22,7 @@ export const ProjectCard = ({ project: {title, image, imageAlt, description, tex
         )}
         <div className="mt-auto">
           {technologies.map((tech, idx) => {
-            return <span key={idx} className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">{tech}</span>
+            return <span key={idx} className="inline-block bg-[var(--color-span-bg)] rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">{tech}</span>
           })
           }
         </div>

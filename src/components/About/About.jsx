@@ -1,8 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { Modal } from '../Util/Modal'
+import { useLanguage } from '../Util/LanguageContext'
 
 
-export const About = ({ files, language }) => {
+export const About = ({ files }) => {
+  const { language } = useLanguage();
   const [about, setAbout] = useState({});
   useEffect(() => {
     const fetchData = async () => {

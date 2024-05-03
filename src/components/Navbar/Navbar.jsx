@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react'
 import { Disclosure } from '@headlessui/react'
 import { IoMdMenu, IoMdClose } from "react-icons/io";
+import { useLanguage } from '../Util/LanguageContext'
 
 
-export const Navbar = ({ language }) => {
+export const Navbar = () => {
+  const { language } = useLanguage();
   const [navbar, setNavbar] = useState({});
   
   useEffect(() => {
@@ -14,6 +16,7 @@ export const Navbar = ({ language }) => {
 
     fetchData();
   }, [language]);
+  
   const navigation = [
       { name: navbar.about, href: '#about'},
       { name: navbar.experience, href: '#experience'},
@@ -22,7 +25,7 @@ export const Navbar = ({ language }) => {
     ]
 
   return (
-    <Disclosure as="nav" className="bg-gradient-to-b from-white to-transparent">
+    <Disclosure as="nav" className="bg-gradient-to-b from-[var(--color-nav-grad)] to-transparent">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-[1920px] px-2 md:px-6 lg:px-8">
@@ -56,7 +59,7 @@ export const Navbar = ({ language }) => {
             </div>
           </div>
 
-          <Disclosure.Panel className="md:hidden absolute z-10 w-full bg-gradient-to-t from-[#c8ceda] to-transparent">
+          <Disclosure.Panel className="md:hidden absolute z-10 w-full bg-gradient-to-t from-[var(--color-nav-grad)] to-transparent border-b-2 border-[var(--color-icon)]">
             <div className="flex flex-col space-y-1 px-2 pb-3 pt-2 shadow-lg">
               {navigation.map((item, idx) => (
                 <Disclosure.Button

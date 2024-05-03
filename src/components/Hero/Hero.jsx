@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import { ReactTyped } from 'react-typed'
+import { useLanguage } from '../Util/LanguageContext'
 
-export const Hero = ({ files, language }) => {
+export const Hero = ({ files }) => {
+  const { language } = useLanguage();
   const [hero, setHero] = useState({});
   
   useEffect(() => {

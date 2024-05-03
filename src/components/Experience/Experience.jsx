@@ -1,8 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { Technologies } from './Technologies'
+import { useLanguage } from '../Util/LanguageContext';
 
 
-export const Experience = ({ files, language }) => {
+export const Experience = ({ files }) => {
+  const { language } = useLanguage();
   const [experience, setExperience] = useState({});
 
   useEffect(() => {

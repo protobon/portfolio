@@ -4,9 +4,11 @@ import {
   FaInstagram,
 } from 'react-icons/fa';
 import { MdAlternateEmail } from "react-icons/md";
+import { useLanguage } from '../Util/LanguageContext';
 
 
-export const Contact = ({ language }) => {
+export const Contact = () => {
+  const { language } = useLanguage();
   const [contact, setContact] = useState({});
 
   useEffect(() => {
